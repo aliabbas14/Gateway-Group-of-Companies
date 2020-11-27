@@ -1,0 +1,12 @@
+C:\Users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Db\bin\Debug\SourceControlAssignment1.Db.dll.config
+C:\Users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Db\bin\Debug\SourceControlAssignment1.Db.dll
+C:\Users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Db\bin\Debug\SourceControlAssignment1.Db.pdb
+C:\Users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Db\bin\Debug\EntityFramework.dll
+C:\Users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Db\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Db\bin\Debug\SourceControlAssignment1.Models.dll
+C:\Users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Db\bin\Debug\SourceControlAssignment1.Models.pdb
+C:\Users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Db\bin\Debug\EntityFramework.xml
+C:\Users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Db\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Db\obj\Debug\SourceControlAssignment1.Db.csprojResolveAssemblyReference.cache
+C:\Users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Db\obj\Debug\SourceControlAssignment1.Db.dll
+C:\Users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Db\obj\Debug\SourceControlAssignment1.Db.pdb

@@ -1,0 +1,5 @@
+c:\users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Models\bin\Debug\SourceControlAssignment1.Models.dll
+c:\users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Models\bin\Debug\SourceControlAssignment1.Models.pdb
+c:\users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Models\obj\Debug\SourceControlAssignment1.Models.csprojResolveAssemblyReference.cache
+c:\users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Models\obj\Debug\SourceControlAssignment1.Models.dll
+c:\users\aliabbas\documents\visual studio 2015\Projects\SourceControlAssignment1\SourceControlAssignment1.Models\obj\Debug\SourceControlAssignment1.Models.pdb
