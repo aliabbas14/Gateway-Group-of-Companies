@@ -1,0 +1,14 @@
+2020-12-22 16:27:34.8962 INFO Entering Account Controller Registration method (GET)
+2020-12-22 16:32:01.4393 INFO Entering Account Controller Registration method (GET)
+2020-12-22 16:34:10.9134 INFO Entering Account Controller Registration method (GET)
+2020-12-22 16:37:54.9636 INFO Entering Account Controller Registration method (GET)
+2020-12-22 16:38:09.5156 INFO Entering Account Controller Registration method (POST)
+2020-12-22 16:38:09.5156 INFO Exiting Account Controller Registration method (POST) after validation errors
+2020-12-22 16:40:02.5518 INFO Entering Account Controller Registration method (GET)
+2020-12-22 16:40:18.6318 INFO Entering Account Controller Registration method (POST)
+2020-12-22 16:40:18.6318 INFO Exiting Account Controller Registration method (POST) after validation errors
+2020-12-22 16:40:34.5413 INFO Entering Account Controller Registration method (POST)
+2020-12-22 16:40:34.5413 INFO Exiting Account Controller Registration method (POST) after validation errors
+2020-12-22 16:41:33.6097 INFO Entering Account Controller Registration method (POST)
+2020-12-22 16:41:35.0958 INFO Exiting Account Controller Registration method (POST) after successfull registration
+2020-12-22 16:41:35.1387 INFO Entering Account Controller Login method (GET)

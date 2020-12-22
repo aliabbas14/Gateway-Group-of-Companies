@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SourceControlFinalAssignmentModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Registration">
+          <Key>
+            <PropertyRef Name="RegistrationId" />
+          </Key>
+          <Property Name="RegistrationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="70" Nullable="false" />
+          <Property Name="Phone" Type="varchar" MaxLength="20" />
+          <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Age" Type="int" Nullable="false" />
+          <Property Name="Gender" Type="int" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="200" />
+          <Property Name="photo" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="system_logging">
+          <Key>
+            <PropertyRef Name="system_logging_guid" />
+          </Key>
+          <Property Name="system_logging_guid" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="entered_date" Type="datetime" />
+          <Property Name="log_application" Type="varchar" MaxLength="200" />
+          <Property Name="log_date" Type="varchar" MaxLength="100" />
+          <Property Name="log_level" Type="varchar" MaxLength="100" />
+          <Property Name="log_logger" Type="varchar" MaxLength="8000" />
+          <Property Name="log_message" Type="varchar" MaxLength="8000" />
+          <Property Name="log_machine_name" Type="varchar" MaxLength="8000" />
+          <Property Name="log_user_name" Type="varchar" MaxLength="8000" />
+          <Property Name="log_call_site" Type="varchar" MaxLength="8000" />
+          <Property Name="log_thread" Type="varchar" MaxLength="100" />
+          <Property Name="log_exception" Type="varchar" MaxLength="8000" />
+          <Property Name="log_stacktrace" Type="varchar" MaxLength="8000" />
+        </EntityType>
+        <EntityContainer Name="SourceControlFinalAssignmentModelStoreContainer">
+          <EntitySet Name="Registration" EntityType="Self.Registration" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="system_logging" EntityType="Self.system_logging" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SourceControlFinalAssignmentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Registration">
+          <Key>
+            <PropertyRef Name="RegistrationId" />
+          </Key>
+          <Property Name="RegistrationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Age" Type="Int32" Nullable="false" />
+          <Property Name="Gender" Type="Int32" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="photo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="SourceControlFinalAssignmentEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Registrations" EntityType="Self.Registration" />
+          <EntitySet Name="system_logging" EntityType="SourceControlFinalAssignmentModel.system_logging" />
+        </EntityContainer>
+        <EntityType Name="system_logging">
+          <Key>
+            <PropertyRef Name="system_logging_guid" />
+          </Key>
+          <Property Name="system_logging_guid" Type="Guid" Nullable="false" />
+          <Property Name="entered_date" Type="DateTime" Precision="3" />
+          <Property Name="log_application" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="log_date" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="log_level" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="log_logger" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+          <Property Name="log_message" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+          <Property Name="log_machine_name" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+          <Property Name="log_user_name" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+          <Property Name="log_call_site" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+          <Property Name="log_thread" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="log_exception" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+          <Property Name="log_stacktrace" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SourceControlFinalAssignmentModelStoreContainer" CdmEntityContainer="SourceControlFinalAssignmentEntities">
+          <EntitySetMapping Name="Registrations">
+            <EntityTypeMapping TypeName="SourceControlFinalAssignmentModel.Registration">
+              <MappingFragment StoreEntitySet="Registration">
+                <ScalarProperty Name="RegistrationId" ColumnName="RegistrationId" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="photo" ColumnName="photo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="system_logging">
+            <EntityTypeMapping TypeName="SourceControlFinalAssignmentModel.system_logging">
+              <MappingFragment StoreEntitySet="system_logging">
+                <ScalarProperty Name="log_stacktrace" ColumnName="log_stacktrace" />
+                <ScalarProperty Name="log_exception" ColumnName="log_exception" />
+                <ScalarProperty Name="log_thread" ColumnName="log_thread" />
+                <ScalarProperty Name="log_call_site" ColumnName="log_call_site" />
+                <ScalarProperty Name="log_user_name" ColumnName="log_user_name" />
+                <ScalarProperty Name="log_machine_name" ColumnName="log_machine_name" />
+                <ScalarProperty Name="log_message" ColumnName="log_message" />
+                <ScalarProperty Name="log_logger" ColumnName="log_logger" />
+                <ScalarProperty Name="log_level" ColumnName="log_level" />
+                <ScalarProperty Name="log_date" ColumnName="log_date" />
+                <ScalarProperty Name="log_application" ColumnName="log_application" />
+                <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+                <ScalarProperty Name="system_logging_guid" ColumnName="system_logging_guid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SourceControlFinalAssignmentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Registration">
+    <Key>
+      <PropertyRef Name="RegistrationId" />
+    </Key>
+    <Property Name="RegistrationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="Gender" Type="Int32" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="photo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="SourceControlFinalAssignmentEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Registrations" EntityType="Self.Registration" />
+    <EntitySet Name="system_logging" EntityType="SourceControlFinalAssignmentModel.system_logging" />
+  </EntityContainer>
+  <EntityType Name="system_logging">
+    <Key>
+      <PropertyRef Name="system_logging_guid" />
+    </Key>
+    <Property Name="system_logging_guid" Type="Guid" Nullable="false" />
+    <Property Name="entered_date" Type="DateTime" Precision="3" />
+    <Property Name="log_application" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="log_date" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="log_level" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="log_logger" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="log_message" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="log_machine_name" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="log_user_name" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="log_call_site" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="log_thread" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="log_exception" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="log_stacktrace" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

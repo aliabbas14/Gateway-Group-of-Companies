@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SourceControlFinalAssignmentModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Registration">
+    <Key>
+      <PropertyRef Name="RegistrationId" />
+    </Key>
+    <Property Name="RegistrationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="Phone" Type="varchar" MaxLength="20" />
+    <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="Gender" Type="int" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="200" />
+    <Property Name="photo" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="system_logging">
+    <Key>
+      <PropertyRef Name="system_logging_guid" />
+    </Key>
+    <Property Name="system_logging_guid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="entered_date" Type="datetime" />
+    <Property Name="log_application" Type="varchar" MaxLength="200" />
+    <Property Name="log_date" Type="varchar" MaxLength="100" />
+    <Property Name="log_level" Type="varchar" MaxLength="100" />
+    <Property Name="log_logger" Type="varchar" MaxLength="8000" />
+    <Property Name="log_message" Type="varchar" MaxLength="8000" />
+    <Property Name="log_machine_name" Type="varchar" MaxLength="8000" />
+    <Property Name="log_user_name" Type="varchar" MaxLength="8000" />
+    <Property Name="log_call_site" Type="varchar" MaxLength="8000" />
+    <Property Name="log_thread" Type="varchar" MaxLength="100" />
+    <Property Name="log_exception" Type="varchar" MaxLength="8000" />
+    <Property Name="log_stacktrace" Type="varchar" MaxLength="8000" />
+  </EntityType>
+  <EntityContainer Name="SourceControlFinalAssignmentModelStoreContainer">
+    <EntitySet Name="Registration" EntityType="Self.Registration" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="system_logging" EntityType="Self.system_logging" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

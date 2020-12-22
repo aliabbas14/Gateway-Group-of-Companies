@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SourceControlFinalAssignmentModelStoreContainer" CdmEntityContainer="SourceControlFinalAssignmentEntities">
+    <EntitySetMapping Name="Registrations">
+      <EntityTypeMapping TypeName="SourceControlFinalAssignmentModel.Registration">
+        <MappingFragment StoreEntitySet="Registration">
+          <ScalarProperty Name="RegistrationId" ColumnName="RegistrationId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="system_logging">
+      <EntityTypeMapping TypeName="SourceControlFinalAssignmentModel.system_logging">
+        <MappingFragment StoreEntitySet="system_logging">
+          <ScalarProperty Name="log_stacktrace" ColumnName="log_stacktrace" />
+          <ScalarProperty Name="log_exception" ColumnName="log_exception" />
+          <ScalarProperty Name="log_thread" ColumnName="log_thread" />
+          <ScalarProperty Name="log_call_site" ColumnName="log_call_site" />
+          <ScalarProperty Name="log_user_name" ColumnName="log_user_name" />
+          <ScalarProperty Name="log_machine_name" ColumnName="log_machine_name" />
+          <ScalarProperty Name="log_message" ColumnName="log_message" />
+          <ScalarProperty Name="log_logger" ColumnName="log_logger" />
+          <ScalarProperty Name="log_level" ColumnName="log_level" />
+          <ScalarProperty Name="log_date" ColumnName="log_date" />
+          <ScalarProperty Name="log_application" ColumnName="log_application" />
+          <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+          <ScalarProperty Name="system_logging_guid" ColumnName="system_logging_guid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

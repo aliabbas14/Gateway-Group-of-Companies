@@ -1,0 +1,205 @@
+﻿@model SourceControlFinalAssignment.Models.RegistrationModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/AdminLTE/plugins/fontawesome-free/css/all.min.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="~/AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/AdminLTE/dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition register-page">
+    <br /><br /><br />
+    <div class="register-box">
+        <div class="card card-outline card-primary">
+            <div class="card-header text-center">
+                <a href="#" class="h1"><b>Registration</b></a>
+            </div>
+            <div class="card-body">
+                <p class="login-box-msg">Register a new membership</p>
+
+                @using (Html.BeginForm("Registration", "Account", FormMethod.Post, new { name = "registration", id = "registration", enctype = "multipart/form-data" }))
+                {
+
+                    <div class="input-group">
+                        @Html.TextBoxFor(x => x.FirstName, htmlAttributes: new { @class = "form-control", @placeholder = "First Name", @required = "true", @id = "firstname" })
+                    </div>
+                    <label id="LabelFirstname" style="color:red">@Html.ValidationMessageFor(x => x.FirstName, "", new { @style = "color:red" })</label>
+
+                    <div class="input-group">
+                        @Html.TextBoxFor(x => x.LastName, htmlAttributes: new { @class = "form-control", @placeholder = "Last Name", @required = "true", @id = "lastname" })
+                    </div>
+                    <label id="LabelLastname" style="color:red">@Html.ValidationMessageFor(x => x.LastName, "", new { @style = "color:red" })</label>
+
+                    <div class="input-group">
+                        @Html.TextBoxFor(x => x.Email, htmlAttributes: new { @class = "form-control", @placeholder = "Email Address", @required = "true", @type = "email", @id = "email" })
+                    </div>
+                    <label id="LabelEmail" style="color:red">@Html.ValidationMessageFor(x => x.Email, "", new { @style = "color:red" })</label>
+
+                    <div class="input-group">
+                        @Html.TextBoxFor(x => x.Phone, htmlAttributes: new { @class = "form-control", @placeholder = "Phone Number", @type = "number", @name = "phone", @id = "phone" })
+                    </div>
+                    <label id="LabelPhone" style="color:red">@Html.ValidationMessageFor(x => x.Phone, "", new { @style = "color:red" })</label>
+
+                    <div class="input-group">
+                        @Html.PasswordFor(x => x.Password, htmlAttributes: new { @class = "form-control", @placeholder = "Password", @required = "true", @id = "password" })
+                    </div>
+                    <label id="LabelPassword" style="color:red">@Html.ValidationMessageFor(x => x.Password, "", new { @style = "color:red" })</label>
+
+                    <div class="input-group">
+                        @Html.PasswordFor(x => x.ConfirmPassword, htmlAttributes: new { @class = "form-control", @placeholder = "Confirm Password", @required = "true", @id = "confirmpassword" })
+                    </div>
+                    <label id="LabelConfirmpassword" style="color:red">@Html.ValidationMessageFor(x => x.ConfirmPassword, "", new { @style = "color:red" })</label>
+
+                    <div class="input-group">
+                        @Html.TextBoxFor(x => x.Age, htmlAttributes: new { @class = "form-control", @placeholder = "Age", @required = "true", @id = "age",@type="number" })
+                    </div>
+                    <label id="LabelAge" style="color:red">@Html.ValidationMessageFor(x => x.Age, "", new { @style = "color:red" })</label>
+
+
+                    <div class="form-group">
+                        @Html.DisplayNameFor(x => x.Gender)
+
+                        <label class="radio-inline">@Html.RadioButtonFor(x => x.Gender, 1, new { @checked = "checked" })<span>Male</span></label>
+
+
+                        <label class="radio-inline"> @Html.RadioButtonFor(x => x.Gender, 0)<span>Female</span> </label>
+
+
+                    </div>
+
+                    <div class="input-group">
+                        @Html.TextBoxFor(x => x.photo, htmlAttributes: new { @class = "form-control", @id = "photo", @type = "file",@required="true" })
+                    </div>
+                    <label id="LabelPhoto" style="color:red">@Html.ValidationMessageFor(x => x.photo, "", new { @style = "color:red" })</label>
+
+                    <div class="input-group">
+                        @Html.TextAreaFor(x => x.Address, htmlAttributes: new { @class = "form-control", @placeholder = "Address", @id = "address" })
+                    </div>
+                    <label id="LabelAddress" style="color:red">@Html.ValidationMessageFor(x => x.Address, "", new { @style = "color:red" })</label>
+
+                    
+
+                    
+
+                    
+
+
+
+
+                    <div class="row">
+
+                        <!-- /.col -->
+                        <div class="col-4">
+                            <button type="submit" class="btn btn-primary btn-block">Register</button>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+
+                }
+
+
+
+                <a href="login.html" class="text-center">I already have a membership</a>
+            </div>
+            <!-- /.form-box -->
+        </div><!-- /.card -->
+    </div>
+    <!-- /.register-box -->
+    <!-- jQuery -->
+    <script src="~/AdminLTE/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="~/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="~/AdminLTE/dist/js/adminlte.min.js"></script>
+    <br />
+    <br />
+</body>
+</html>
+<script>
+    $(function () {
+        /*$("form[name='registration']").validate({
+            rules: {
+                phone:"required"
+
+            },
+            messages:{
+                phone:"Phone required"
+            },
+            submitHandler: function(form) {
+                form.submit();
+            }
+
+        });*/
+
+        $("form").submit(function () {
+
+            if ($("#firstname").val() == "")
+            {
+                $("#LabelFirstname").text("First Name is required");
+                $("#firstname").focus();
+                event.preventDefault();
+            }
+            if($("#lastname").val() == "")
+            {
+                $("#LabelLastname").text("Last Name is required");
+                $("#lastname").focus();
+                event.preventDefault();
+            }
+            if ($("#email").val() == "") {
+                $("#LabelEmail").text("Email is required");
+                $("#email").focus();
+                event.preventDefault();
+            }
+            if ($("#password").val() == "") {
+                $("#LabelPassword").text("Password is required");
+                $("#password").focus();
+                event.preventDefault();
+            }
+            if ($("#age").val() == "") {
+                $("#LabelAge").text("Age is required");
+                $("#age").focus();
+                event.preventDefault();
+            }
+            else {
+                if ($("#confirmpassword").val() == "") {
+                    $("#LabelConfirmpassword").text("Confirm Password is required");
+                    $("#confirmpassword").focus();
+                    event.preventDefault();
+                }
+                else {
+                    if($("#password").val() != $("#confirmpassword").val())
+                    {
+                        $("#LabelConfirmpassword").text("Password & Confirm Password doesn't match");
+                        $("#confirmpassword").focus();
+                        event.preventDefault();
+                    }
+
+                }
+            }
+            
+
+            if ($("#address").val() == "") {
+                $("#LabelAddress").text("Address is required");
+                $("#address").focus();
+                event.preventDefault();
+            }
+            
+
+            
+
+
+        })
+
+       // $("#phone").val();
+
+    });
+
+</script>
