@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -59,6 +59,7 @@ namespace SourceControlFinalAssignment.Controllers
                             LastName = registration.LastName,
                             Email = registration.Email,
                             Phone = registration.Phone,
+                            Dob=registration.dob,
                             Password = registration.Password,
                             Age = registration.Age,
                             Gender = registration.Gender,
