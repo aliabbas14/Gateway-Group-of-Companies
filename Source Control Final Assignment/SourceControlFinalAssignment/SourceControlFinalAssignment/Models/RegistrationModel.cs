@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -26,6 +26,9 @@ namespace SourceControlFinalAssignment.Models
 
         [Display(Name = "Phone Number")]
         public string Phone { get; set; }
+
+        [CustomValidations]
+        public DateTime dob { get; set; }
 
         [Required]
         [Display(Name = "Password")]
