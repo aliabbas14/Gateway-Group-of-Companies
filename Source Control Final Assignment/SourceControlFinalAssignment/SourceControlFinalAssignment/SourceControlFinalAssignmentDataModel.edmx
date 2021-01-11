@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
   <!-- EF Runtime content -->
   <edmx:Runtime>
@@ -13,6 +13,7 @@
           <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="Email" Type="varchar" MaxLength="70" Nullable="false" />
+          <Property Name="Dob" Type="datetime" Nullable="false" />
           <Property Name="Phone" Type="varchar" MaxLength="20" />
           <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="Age" Type="int" Nullable="false" />
@@ -60,6 +61,7 @@
           <Property Name="Gender" Type="Int32" Nullable="false" />
           <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
           <Property Name="photo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Dob" Type="DateTime" Nullable="false" Precision="3" />
         </EntityType>
         <EntityContainer Name="SourceControlFinalAssignmentEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Registrations" EntityType="Self.Registration" />
@@ -92,6 +94,7 @@
           <EntitySetMapping Name="Registrations">
             <EntityTypeMapping TypeName="SourceControlFinalAssignmentModel.Registration">
               <MappingFragment StoreEntitySet="Registration">
+                <ScalarProperty Name="Dob" ColumnName="Dob" />
                 <ScalarProperty Name="RegistrationId" ColumnName="RegistrationId" />
                 <ScalarProperty Name="FirstName" ColumnName="FirstName" />
                 <ScalarProperty Name="LastName" ColumnName="LastName" />
