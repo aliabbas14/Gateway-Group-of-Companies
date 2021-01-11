@@ -1,4 +1,4 @@
-﻿@model SourceControlFinalAssignment.Models.RegistrationModel
+@model SourceControlFinalAssignment.Models.RegistrationModel
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,6 +47,11 @@
                         @Html.TextBoxFor(x => x.Phone, htmlAttributes: new { @class = "form-control", @placeholder = "Phone Number", @type = "number", @name = "phone", @id = "phone" })
                     </div>
                     <label id="LabelPhone" style="color:red">@Html.ValidationMessageFor(x => x.Phone, "", new { @style = "color:red" })</label>
+
+                    <div class="input-group">
+                        @Html.TextBoxFor(x => x.dob, htmlAttributes: new { @class = "form-control", @placeholder = "Date of Birth", @type = "date", @name = "dob", @id = "dob" })
+                    </div>
+                    <label id="dob" style="color:red">@Html.ValidationMessageFor(x => x.dob, "", new { @style = "color:red" })</label>
 
                     <div class="input-group">
                         @Html.PasswordFor(x => x.Password, htmlAttributes: new { @class = "form-control", @placeholder = "Password", @required = "true", @id = "password" })
