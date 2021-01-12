@@ -1,0 +1,163 @@
+2021-01-12 11:42:12.2440 INFO Entering Index action method of HomeController.
+2021-01-12 11:42:12.7985 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 11:42:22.2282 INFO Entering Register action method (Get) of AccountController.
+2021-01-12 11:42:25.8496 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 11:42:27.4845 INFO Entering Register action method (Get) of AccountController.
+2021-01-12 11:43:46.8667 INFO Entering Register action method (Post) of AccountController.
+2021-01-12 11:43:46.8667 INFO Exiting Register action method (Post) of AccountController. Invalid Model State.
+2021-01-12 11:44:02.8075 INFO Entering Register action method (Post) of AccountController.
+2021-01-12 11:44:04.9881 INFO Exiting Register action method (Post) of AccountController. Registration Success.
+2021-01-12 11:44:05.0020 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 11:44:09.7269 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 11:44:10.6424 INFO Exiting Login action method (Post) of AccountController. Login Success.
+2021-01-12 11:44:10.6564 INFO Entering Index action method of HomeController.
+2021-01-12 11:44:10.6564 INFO Exiting Index action method of HomeController.
+2021-01-12 11:44:27.1040 INFO Entering Index action method of HomeController.
+2021-01-12 11:44:27.1040 INFO Exiting Index action method of HomeController.
+2021-01-12 11:44:28.1681 INFO Entering Display action method of ProductController.
+2021-01-12 11:44:28.3405 INFO Exiting Display action method of ProductController.
+2021-01-12 11:44:37.9891 INFO Entering Add action method (Get) of ProductController.
+2021-01-12 11:44:38.0340 INFO Exiting Add action method (Get) of ProductController.
+2021-01-12 11:45:27.9737 INFO Entering Add action method (Post) of ProductController.
+2021-01-12 11:45:28.0997 INFO Exiting Add action method (Post) of ProductController. Product Added
+2021-01-12 11:45:28.0997 INFO Entering Display action method of ProductController.
+2021-01-12 11:45:28.1535 INFO Exiting Display action method of ProductController.
+2021-01-12 11:45:40.8975 INFO Entering Edit action method (Get) of ProductController.
+2021-01-12 11:45:40.9887 INFO Exiting Edit action method (Get) of ProductController.
+2021-01-12 11:46:51.6818 INFO Entering Edit action method (Get) of ProductController.
+2021-01-12 11:46:51.7087 INFO Exiting Edit action method (Get) of ProductController. User not authenticated.
+2021-01-12 11:46:51.8473 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 11:46:54.5073 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 11:46:57.8015 INFO Exiting Login action method (Post) of AccountController. Login Success.
+2021-01-12 11:46:57.8164 INFO Entering Index action method of HomeController.
+2021-01-12 11:46:57.8294 INFO Exiting Index action method of HomeController.
+2021-01-12 11:46:59.2526 INFO Entering Add action method (Get) of ProductController.
+2021-01-12 11:46:59.3284 INFO Exiting Add action method (Get) of ProductController.
+2021-01-12 11:47:02.9736 INFO Entering Display action method of ProductController.
+2021-01-12 11:47:03.1680 INFO Exiting Display action method of ProductController.
+2021-01-12 11:47:05.0993 INFO Entering Edit action method (Get) of ProductController.
+2021-01-12 11:47:05.1731 INFO Exiting Edit action method (Get) of ProductController.
+2021-01-12 11:47:15.7035 INFO Entering Edit action method (Post) of ProductController.
+2021-01-12 11:47:16.2679 INFO Exiting Edit action method (Post) of ProductController. Product Updated
+2021-01-12 11:47:16.2869 INFO Entering Display action method of ProductController.
+2021-01-12 11:47:16.3018 INFO Exiting Display action method of ProductController.
+2021-01-12 11:48:51.8336 INFO Entering Display action method of ProductController.
+2021-01-12 11:48:51.8485 INFO Entering Index action method of HomeController.
+2021-01-12 11:48:51.8824 INFO Exiting Display action method of ProductController. User not authenticated.
+2021-01-12 11:48:52.1138 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 11:48:52.3791 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 11:48:53.6846 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 11:48:55.1098 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 11:48:58.6843 INFO Exiting Login action method (Post) of AccountController. Login Success.
+2021-01-12 11:48:58.7052 INFO Entering Index action method of HomeController.
+2021-01-12 11:48:58.7122 INFO Exiting Index action method of HomeController.
+2021-01-12 11:49:06.1163 INFO Entering Index action method of HomeController.
+2021-01-12 11:49:06.1163 INFO Exiting Index action method of HomeController.
+2021-01-12 11:49:06.8962 INFO Entering Display action method of ProductController.
+2021-01-12 11:49:07.1376 INFO Exiting Display action method of ProductController.
+2021-01-12 11:49:08.5767 INFO Entering Add action method (Get) of ProductController.
+2021-01-12 11:49:08.6136 INFO Exiting Add action method (Get) of ProductController.
+2021-01-12 11:49:11.5378 INFO Entering Display action method of ProductController.
+2021-01-12 11:49:11.5567 INFO Exiting Display action method of ProductController.
+2021-01-12 11:49:12.7456 INFO Entering Edit action method (Get) of ProductController.
+2021-01-12 11:49:12.8134 INFO Exiting Edit action method (Get) of ProductController.
+2021-01-12 11:50:13.5902 INFO Entering Index action method of HomeController.
+2021-01-12 11:50:13.7458 INFO Entering Add action method (Get) of ProductController.
+2021-01-12 11:50:13.7458 INFO Exiting Add action method (Get) of ProductController. User not authenticated
+2021-01-12 11:50:13.9094 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 11:50:14.2295 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 11:50:16.6969 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 11:50:19.8485 INFO Exiting Login action method (Post) of AccountController. Login Success.
+2021-01-12 11:50:19.8615 INFO Entering Index action method of HomeController.
+2021-01-12 11:50:19.8664 INFO Exiting Index action method of HomeController.
+2021-01-12 11:50:26.5747 INFO Entering Add action method (Get) of ProductController.
+2021-01-12 11:50:26.6345 INFO Exiting Add action method (Get) of ProductController.
+2021-01-12 11:51:00.5838 INFO Entering Add action method (Post) of ProductController.
+2021-01-12 11:51:01.0815 INFO Exiting Add action method (Post) of ProductController. Product Added
+2021-01-12 11:51:01.1014 INFO Entering Display action method of ProductController.
+2021-01-12 11:51:01.2909 INFO Exiting Display action method of ProductController.
+2021-01-12 11:52:28.4511 INFO Entering Delete action method of ProductController.
+2021-01-12 11:52:28.6296 INFO Exiting Delete action method of ProductController. Product Deleted.
+2021-01-12 11:52:28.6475 INFO Entering Display action method of ProductController.
+2021-01-12 11:52:28.6674 INFO Exiting Display action method of ProductController.
+2021-01-12 11:52:31.5113 INFO Entering Delete action method of ProductController.
+2021-01-12 11:52:31.5931 INFO Exiting Delete action method of ProductController. Product Deleted.
+2021-01-12 11:52:31.6051 INFO Entering Display action method of ProductController.
+2021-01-12 11:52:31.6250 INFO Exiting Display action method of ProductController.
+2021-01-12 12:05:51.5790 INFO Entering Index action method of HomeController.
+2021-01-12 12:05:51.8333 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 12:05:56.3473 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 12:05:58.7698 INFO Exiting Login action method (Post) of AccountController. Email & Password doesn't match.
+2021-01-12 12:06:00.8799 INFO Entering Register action method (Get) of AccountController.
+2021-01-12 12:06:09.7431 INFO Entering Register action method (Post) of AccountController.
+2021-01-12 12:06:10.0872 INFO Exiting Register action method (Post) of AccountController. Registration Success.
+2021-01-12 12:06:10.1032 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 12:06:11.1574 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 12:06:11.2501 INFO Exiting Login action method (Post) of AccountController. Login Success.
+2021-01-12 12:06:11.2621 INFO Entering Index action method of HomeController.
+2021-01-12 12:06:11.2621 INFO Exiting Index action method of HomeController.
+2021-01-12 12:06:30.2570 INFO Entering Add action method (Get) of ProductController.
+2021-01-12 12:06:30.3078 INFO Exiting Add action method (Get) of ProductController.
+2021-01-12 12:06:53.7658 INFO Entering Add action method (Post) of ProductController.
+2021-01-12 12:06:53.8815 INFO Exiting Add action method (Post) of ProductController. Product Added
+2021-01-12 12:06:53.8974 INFO Entering Display action method of ProductController.
+2021-01-12 12:06:54.0650 INFO Exiting Display action method of ProductController.
+2021-01-12 12:14:12.7455 INFO Entering Display action method of ProductController.
+2021-01-12 12:14:12.7744 INFO Exiting Display action method of ProductController. User not authenticated.
+2021-01-12 12:14:12.9669 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 12:14:17.8139 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 12:14:20.2184 INFO Exiting Login action method (Post) of AccountController. Login Success.
+2021-01-12 12:14:20.2334 INFO Entering Index action method of HomeController.
+2021-01-12 12:14:20.2334 INFO Exiting Index action method of HomeController.
+2021-01-12 12:14:22.1233 INFO Entering Display action method of ProductController.
+2021-01-12 12:14:22.4574 INFO Exiting Display action method of ProductController.
+2021-01-12 12:14:25.2200 INFO Entering Edit action method (Get) of ProductController.
+2021-01-12 12:14:25.3188 INFO Exiting Edit action method (Get) of ProductController.
+2021-01-12 12:14:27.3027 INFO Entering Edit action method (Post) of ProductController.
+2021-01-12 12:14:27.8851 INFO Exiting Edit action method (Post) of ProductController. Product Updated
+2021-01-12 12:14:28.1605 ERROR Exception (Display action method of ProductController) : Unable to cast object of type 'System.Int32' to type 'System.String'.
+2021-01-12 12:14:28.1984 INFO Entering Error action method of AccountController.
+2021-01-12 12:15:00.8800 INFO Entering Edit action method (Post) of ProductController.
+2021-01-12 12:15:15.7526 INFO Exiting Edit action method (Post) of ProductController. Product Updated
+2021-01-12 12:16:34.9279 ERROR Exception (Display action method of ProductController) : Unable to cast object of type 'System.Int32' to type 'System.String'.
+2021-01-12 12:16:34.9887 INFO Entering Error action method of AccountController.
+2021-01-12 12:16:40.3138 INFO Entering Edit action method (Post) of ProductController.
+2021-01-12 12:16:40.3747 INFO Exiting Edit action method (Post) of ProductController. Product Updated
+2021-01-12 12:16:40.3916 INFO Entering Display action method of ProductController.
+2021-01-12 12:16:40.4116 INFO Exiting Display action method of ProductController.
+2021-01-12 12:16:48.8493 INFO Entering Delete action method of ProductController.
+2021-01-12 12:16:48.9072 INFO Exiting Delete action method of ProductController. Product Deleted.
+2021-01-12 12:16:48.9241 INFO Entering Display action method of ProductController.
+2021-01-12 12:16:48.9401 INFO Exiting Display action method of ProductController.
+2021-01-12 12:16:53.8895 INFO Entering Add action method (Get) of ProductController.
+2021-01-12 12:16:53.9084 INFO Exiting Add action method (Get) of ProductController.
+2021-01-12 12:17:09.8569 INFO Entering Add action method (Post) of ProductController.
+2021-01-12 12:17:09.9456 INFO Exiting Add action method (Post) of ProductController. Product Added
+2021-01-12 12:17:09.9596 INFO Entering Display action method of ProductController.
+2021-01-12 12:17:09.9755 INFO Exiting Display action method of ProductController.
+2021-01-12 12:20:49.8760 INFO Entering Index action method of HomeController.
+2021-01-12 12:20:49.9837 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 12:21:08.5889 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 12:21:10.7890 INFO Exiting Login action method (Post) of AccountController. Login Success.
+2021-01-12 12:21:10.7890 INFO Entering Index action method of HomeController.
+2021-01-12 12:21:10.8079 INFO Exiting Index action method of HomeController.
+2021-01-12 12:21:19.2961 INFO Entering Add action method (Get) of ProductController.
+2021-01-12 12:21:19.3579 INFO Exiting Add action method (Get) of ProductController.
+2021-01-12 12:21:37.2852 INFO Entering Add action method (Get) of ProductController.
+2021-01-12 12:21:37.3111 INFO Exiting Add action method (Get) of ProductController.
+2021-01-12 12:21:38.4391 INFO Entering Display action method of ProductController.
+2021-01-12 12:21:38.7183 INFO Exiting Display action method of ProductController.
+2021-01-12 12:21:40.5126 INFO Entering Edit action method (Get) of ProductController.
+2021-01-12 12:21:40.5943 INFO Exiting Edit action method (Get) of ProductController.
+2021-01-12 12:22:58.9268 INFO Entering Register action method (Get) of AccountController.
+2021-01-12 12:24:29.8339 INFO Entering Register action method (Get) of AccountController.
+2021-01-12 12:24:52.9967 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 12:25:11.4688 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 12:25:26.1054 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 12:25:28.6157 INFO Exiting Login action method (Post) of AccountController. Login Success.
+2021-01-12 12:25:28.6387 INFO Entering Index action method of HomeController.
+2021-01-12 12:25:28.6387 INFO Exiting Index action method of HomeController.
+2021-01-12 12:25:42.8219 INFO Entering Logout action method of AccountController.
+2021-01-12 12:25:42.8349 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 12:25:46.0114 INFO Entering Index action method of HomeController.
+2021-01-12 12:25:46.0254 INFO Entering Login action method (Get) of AccountController.

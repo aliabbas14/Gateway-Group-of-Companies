@@ -1,0 +1,131 @@
+﻿@model IEnumerable<ProjectTraineeAssignment.Models.ProductModel>
+
+@{
+    ViewBag.Title = "Display";
+    Layout = "~/Views/Shared/_ProductLayout.cshtml";
+
+    if(ViewBag.ProductAdded==1)
+    {
+        <script>alert("Product Added Successfully.");</script>
+        ViewBag.ProductAdded = 0;
+    }
+
+    if (ViewBag.ProductEdited == 1)
+    {
+        <script>alert("Product Edited Successfully.");</script>
+        ViewBag.ProductEdited = 0;
+    }
+
+    if (ViewBag.ProductDeleted == 1)
+    {
+        <script>alert("Product Deleted.");</script>
+        ViewBag.ProductDeleted = 0;
+    }
+}
+
+<h2>Display</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Products</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="example" class="table table-striped table-bordered" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.name)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.category.name)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.price)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.quantity)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.short_description)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.long_description)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.small_image)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.large_image)
+                                    </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+
+                            @foreach (var item in Model)
+            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.category.name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.price)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.quantity)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.short_description)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.long_description)
+                                    </td>
+                                    <td>
+                                        @{
+                                            var small_image = "/Images/Small/" + item.small_image;
+
+                                        }
+                                        <img src="@small_image" height="50" width="50" />
+                                    </td>
+                                    <td>
+                                        @{
+                                            var large_image = "/Images/Large/" + item.large_image;
+
+                                        }
+                                        <img src="@large_image" height="50" width="50" />
+                                    </td>
+                                    <td>
+                                        @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                                    </td>
+                                </tr>
+                                            }
+
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+                @section datatables {
+                    <script>
+                        $(document).ready(function () {
+                            $('#example').DataTable();
+                        });
+                    </script>
+                }

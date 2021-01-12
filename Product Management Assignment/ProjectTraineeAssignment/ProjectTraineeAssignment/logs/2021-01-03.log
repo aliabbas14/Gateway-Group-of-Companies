@@ -1,0 +1,6 @@
+2021-01-03 17:10:34.9720 INFO Entering Register action method of AccountController.
+2021-01-03 17:21:34.8173 INFO Entering Login action method (Get) of AccountController.
+2021-01-03 17:21:50.2521 INFO Entering Login action method (Post) of AccountController.
+2021-01-03 17:22:07.7198 INFO Exiting Login action method (Post) of AccountController. Login Success.
+2021-01-03 17:22:17.1229 INFO Entering Logout action method of AccountController.
+2021-01-03 17:22:17.1359 INFO Entering Login action method (Get) of AccountController.
