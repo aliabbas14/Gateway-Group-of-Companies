@@ -1,0 +1,1357 @@
+{
+	"info": {
+		"_postman_id": "47f917c7-34f1-4482-9f16-3d8e2c94f4ca",
+		"name": "Web Api Final Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:54653/api/HotelApi/PostAddHotel",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Hotel 1\",\r\n    \"Address\":\"Ahmedabad\",\r\n    \"City\":\"Ahmedabad\",\r\n    \"Pincode\":\"380001\",\r\n    \"ContactNumber\":\"9852458512\",\r\n    \"ContactPerson\":\"Harish\",\r\n    \"Website\":\"www.hotel1.com\",\r\n    \"Facebook\":\"www.fb.com\",\r\n    \"Twitter\":\"www.twitter.com\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/HotelApi/PostAddHotel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"HotelApi",
+						"PostAddHotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/HotelApi/PostAddHotel",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Blue Hills\",\r\n    \"Address\":\"Bhavnagar\",\r\n    \"City\":\"Bhavnagar\",\r\n    \"Pincode\":\"385224\",\r\n    \"ContactNumber\":\"9852458512\",\r\n    \"ContactPerson\":\"Suresh\",\r\n    \"Website\":\"www.bluehills.com\",\r\n    \"Facebook\":\"www.fb.com\",\r\n    \"Twitter\":\"www.twitter.com\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/HotelApi/PostAddHotel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"HotelApi",
+						"PostAddHotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/HotelApi/PostAddHotel",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Royal\",\r\n    \"Address\":\"Ahmedabad\",\r\n    \"City\":\"Ahmedabad\",\r\n    \"Pincode\":\"380055\",\r\n    \"ContactNumber\":\"9852458512\",\r\n    \"ContactPerson\":\"Ramesh\",\r\n    \"Website\":\"www.royal.com\",\r\n    \"Facebook\":\"www.fb.com\",\r\n    \"Twitter\":\"www.twitter.com\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/HotelApi/PostAddHotel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"HotelApi",
+						"PostAddHotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/HotelApi/PostAddHotel",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Flair Inn\",\r\n    \"Address\":\"Ahmedabad\",\r\n    \"City\":\"Ahmedabad\",\r\n    \"Pincode\":\"380055\",\r\n    \"ContactNumber\":\"9852458512\",\r\n    \"ContactPerson\":\"Hitesh\",\r\n    \"Website\":\"www.flairinn.com\",\r\n    \"Facebook\":\"www.fb.com\",\r\n    \"Twitter\":\"www.twitter.com\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/HotelApi/PostAddHotel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"HotelApi",
+						"PostAddHotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/HotelApi/PostAddHotel",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Mausam\",\r\n    \"Address\":\"Ahmedabad\",\r\n    \"City\":\"Ahmedabad\",\r\n    \"Pincode\":\"380055\",\r\n    \"ContactNumber\":\"9852458512\",\r\n    \"ContactPerson\":\"Nirav\",\r\n    \"Website\":\"www.mausam.com\",\r\n    \"Facebook\":\"www.fb.com\",\r\n    \"Twitter\":\"www.twitter.com\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/HotelApi/PostAddHotel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"HotelApi",
+						"PostAddHotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":1,\r\n    \"Name\":\"101\",\r\n    \"Category\":\"Special\",\r\n    \"Price\":\"1500\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":1,\r\n    \"Name\":\"102\",\r\n    \"Category\":\"Suite\",\r\n    \"Price\":\"2500\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":1,\r\n    \"Name\":\"103\",\r\n    \"Category\":\"Deluxe\",\r\n    \"Price\":\"2000\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":2,\r\n    \"Name\":\"101\",\r\n    \"Category\":\"Suite\",\r\n    \"Price\":\"3000\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":2,\r\n    \"Name\":\"102\",\r\n    \"Category\":\"Semi Special\",\r\n    \"Price\":\"2000\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":2,\r\n    \"Name\":\"103\",\r\n    \"Category\":\"Special\",\r\n    \"Price\":\"2500\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":3,\r\n    \"Name\":\"101\",\r\n    \"Category\":\"Deluxe\",\r\n    \"Price\":\"2000\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":3,\r\n    \"Name\":\"102\",\r\n    \"Category\":\"Semi\",\r\n    \"Price\":\"1000\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":3,\r\n    \"Name\":\"103\",\r\n    \"Category\":\"Special\",\r\n    \"Price\":\"3000\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":4,\r\n    \"Name\":\"101\",\r\n    \"Category\":\"Double\",\r\n    \"Price\":\"1500\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":4,\r\n    \"Name\":\"102\",\r\n    \"Category\":\"Single\",\r\n    \"Price\":\"1000\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":4,\r\n    \"Name\":\"103\",\r\n    \"Category\":\"Semi\",\r\n    \"Price\":\"2000\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":5,\r\n    \"Name\":\"101\",\r\n    \"Category\":\"Deluxe\",\r\n    \"Price\":\"3000\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":5,\r\n    \"Name\":\"102\",\r\n    \"Category\":\"Semi\",\r\n    \"Price\":\"2250\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostAddRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\":5,\r\n    \"Name\":\"103\",\r\n    \"Category\":\"Special\",\r\n    \"Price\":\"3500\",\r\n    \"CreatedDate\":\"2020-01-14\",\r\n    \"CreatedBy\":1,\r\n    \"UpdatedDate\":\"2020-1-14\",\r\n    \"UpdatedBy\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostAddRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostAddRoom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/HotelApi/GetAllHotels",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/HotelApi/GetAllHotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"HotelApi",
+						"GetAllHotels"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/GetAllRooms",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/GetAllRooms?city=ahmedabad&pincode=380055&price=2000&category=special",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"GetAllRooms"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "ahmedabad"
+						},
+						{
+							"key": "pincode",
+							"value": "380055"
+						},
+						{
+							"key": "price",
+							"value": "2000"
+						},
+						{
+							"key": "category",
+							"value": "special"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/GetRoomAvailability",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/GetRoomAvailability?room_id=1&date=2020-01-10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"GetRoomAvailability"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "380055",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "2000",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "special",
+							"disabled": true
+						},
+						{
+							"key": "room_id",
+							"value": "1"
+						},
+						{
+							"key": "date",
+							"value": "2020-01-10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PostBookRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\":\"2020-12-14\",\r\n    \"RoomId\":1,\r\n    \"Status\":\"Optional\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PostBookRoom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PostBookRoom"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "380055",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "2000",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "special",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PutUpdateBookingDate",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"status\":\"Cancelled\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PutUpdateBookingStatus?booking_id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PutUpdateBookingStatus"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "380055",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "2000",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "special",
+							"disabled": true
+						},
+						{
+							"key": "booking_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PutUpdateBookingStatus",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"status\":\"Cancelled\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/PutUpdateBookingStatus?booking_id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"PutUpdateBookingStatus"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "380055",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "2000",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "special",
+							"disabled": true
+						},
+						{
+							"key": "booking_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:54653/api/RoomApi/PutUpdateBookingStatus",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:54653/api/RoomApi/DeleteBooking?booking_id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "54653",
+					"path": [
+						"api",
+						"RoomApi",
+						"DeleteBooking"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "380055",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "2000",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "special",
+							"disabled": true
+						},
+						{
+							"key": "booking_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
