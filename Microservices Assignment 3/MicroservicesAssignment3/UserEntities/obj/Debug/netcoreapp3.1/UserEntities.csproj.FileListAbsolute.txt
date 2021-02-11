@@ -1,0 +1,9 @@
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\UserEntities\bin\Debug\netcoreapp3.1\UserEntities.deps.json
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\UserEntities\bin\Debug\netcoreapp3.1\UserEntities.dll
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\UserEntities\bin\Debug\netcoreapp3.1\UserEntities.pdb
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\UserEntities\obj\Debug\netcoreapp3.1\UserEntities.csprojAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\UserEntities\obj\Debug\netcoreapp3.1\UserEntities.AssemblyInfoInputs.cache
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\UserEntities\obj\Debug\netcoreapp3.1\UserEntities.AssemblyInfo.cs
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\UserEntities\obj\Debug\netcoreapp3.1\UserEntities.csproj.CoreCompileInputs.cache
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\UserEntities\obj\Debug\netcoreapp3.1\UserEntities.dll
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\UserEntities\obj\Debug\netcoreapp3.1\UserEntities.pdb

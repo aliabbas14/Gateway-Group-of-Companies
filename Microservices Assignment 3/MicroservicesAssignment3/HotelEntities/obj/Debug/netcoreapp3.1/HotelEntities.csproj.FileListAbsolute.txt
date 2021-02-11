@@ -1,0 +1,9 @@
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\HotelEntities\bin\Debug\netcoreapp3.1\HotelEntities.deps.json
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\HotelEntities\bin\Debug\netcoreapp3.1\HotelEntities.dll
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\HotelEntities\bin\Debug\netcoreapp3.1\HotelEntities.pdb
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\HotelEntities\obj\Debug\netcoreapp3.1\HotelEntities.csprojAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\HotelEntities\obj\Debug\netcoreapp3.1\HotelEntities.AssemblyInfoInputs.cache
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\HotelEntities\obj\Debug\netcoreapp3.1\HotelEntities.AssemblyInfo.cs
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\HotelEntities\obj\Debug\netcoreapp3.1\HotelEntities.csproj.CoreCompileInputs.cache
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\HotelEntities\obj\Debug\netcoreapp3.1\HotelEntities.dll
+F:\AliAbbas\Work\Gateway\Microservices\MicroservicesAssignment3\HotelEntities\obj\Debug\netcoreapp3.1\HotelEntities.pdb

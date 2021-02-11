@@ -61,3 +61,4 @@ F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\Pro
 F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\NLog.config
 F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\NLog.dll
 F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\NLog.xml
+F:\AliAbbas\Work\Gateway\Assignments\Product Management Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
