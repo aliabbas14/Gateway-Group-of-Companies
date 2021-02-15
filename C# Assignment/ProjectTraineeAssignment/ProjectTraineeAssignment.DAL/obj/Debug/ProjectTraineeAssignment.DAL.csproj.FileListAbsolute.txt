@@ -1,0 +1,14 @@
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\bin\Debug\ProjectTraineeAssignment.DAL.dll.config
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\bin\Debug\ProjectTraineeAssignment.DAL.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\bin\Debug\ProjectTraineeAssignment.DAL.pdb
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\bin\Debug\EntityFramework.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\bin\Debug\ProjectTraineeAssignment.Models.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\bin\Debug\ProjectTraineeAssignment.Models.pdb
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\bin\Debug\EntityFramework.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\obj\Debug\ProjectTraineeAssignment.DAL.csprojResolveAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\obj\Debug\ProjectTraineeAssignment.DAL.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\obj\Debug\ProjectTraineeAssignment.DAL.pdb
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\bin\Debug\AutoMapper.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.DAL\bin\Debug\AutoMapper.xml

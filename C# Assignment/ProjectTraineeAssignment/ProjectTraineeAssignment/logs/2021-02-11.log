@@ -1,0 +1,13 @@
+2021-02-11 11:13:28.5405 INFO Entering Index action method of HomeController.
+2021-02-11 11:13:29.1039 INFO Entering Login action method (Get) of AccountController.
+2021-02-11 11:13:46.6404 INFO Entering Login action method (Post) of AccountController.
+2021-02-11 11:14:16.1947 ERROR Exiting Login action method (Post) of AccountController. Internal Server Error.
+2021-02-11 11:14:16.2665 INFO Entering Error action method of AccountController.
+2021-02-11 11:16:45.5978 INFO Entering Index action method of HomeController.
+2021-02-11 11:16:45.6127 INFO Entering Login action method (Get) of AccountController.
+2021-02-11 11:16:55.7587 INFO Entering Display action method of ProductController.
+2021-02-11 11:16:55.7587 INFO Exiting Display action method of ProductController. User not authenticated.
+2021-02-11 11:16:55.7806 INFO Entering Login action method (Get) of AccountController.
+2021-02-11 11:16:58.7726 INFO Entering Add action method (Get) of ProductController.
+2021-02-11 11:16:58.7726 INFO Exiting Add action method (Get) of ProductController. User not authenticated
+2021-02-11 11:16:58.7876 INFO Entering Login action method (Get) of AccountController.

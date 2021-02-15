@@ -1,0 +1,6 @@
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.Models\bin\Debug\DotNetAssignment.Models.dll
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.Models\bin\Debug\DotNetAssignment.Models.pdb
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.Models\obj\Debug\DotNetAssignment.Models.csprojAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.Models\obj\Debug\DotNetAssignment.Models.csproj.CoreCompileInputs.cache
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.Models\obj\Debug\DotNetAssignment.Models.dll
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.Models\obj\Debug\DotNetAssignment.Models.pdb

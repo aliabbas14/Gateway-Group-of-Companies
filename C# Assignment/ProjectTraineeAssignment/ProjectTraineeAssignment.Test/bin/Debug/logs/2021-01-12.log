@@ -1,0 +1,49 @@
+2021-01-12 12:35:19.2678 INFO Entering Register action method (Get) of AccountController.
+2021-01-12 12:35:28.4376 INFO Entering Register action method (Get) of AccountController.
+2021-01-12 12:35:28.5403 INFO Entering Register action method (Get) of AccountController.
+2021-01-12 12:35:28.5403 INFO Entering Register action method (Get) of AccountController.
+2021-01-12 12:35:28.5403 INFO Entering Register action method (Get) of AccountController.
+2021-01-12 12:35:28.6709 INFO Entering Register action method (Post) of AccountController.
+2021-01-12 12:35:32.9609 ERROR Exception : One or more errors occurred.
+2021-01-12 12:35:33.0387 INFO Entering Register action method (Post) of AccountController.
+2021-01-12 12:35:37.0481 ERROR Exception : One or more errors occurred.
+2021-01-12 12:35:37.0960 INFO Entering Register action method (Post) of AccountController.
+2021-01-12 12:35:41.1183 ERROR Exception : One or more errors occurred.
+2021-01-12 12:35:41.1183 INFO Entering Register action method (Post) of AccountController.
+2021-01-12 12:35:45.1501 ERROR Exception : One or more errors occurred.
+2021-01-12 12:35:45.1501 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 12:35:45.1680 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 12:35:45.1680 INFO Entering Login action method (Get) of AccountController.
+2021-01-12 12:35:45.1810 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 12:35:49.1921 ERROR Exception : One or more errors occurred.
+2021-01-12 12:35:49.2041 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 12:35:53.2234 ERROR Exception : One or more errors occurred.
+2021-01-12 12:35:53.2343 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 12:35:57.2569 ERROR Exception : One or more errors occurred.
+2021-01-12 12:35:57.2569 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 12:36:01.2873 ERROR Exception : One or more errors occurred.
+2021-01-12 12:36:01.3033 INFO Entering Login action method (Post) of AccountController.
+2021-01-12 12:36:05.3186 ERROR Exception : One or more errors occurred.
+2021-01-12 12:36:05.3186 INFO Entering Logout action method of AccountController.
+2021-01-12 12:36:05.3356 ERROR Exception : Object reference not set to an instance of an object.
+2021-01-12 12:36:05.3356 INFO Entering Logout action method of AccountController.
+2021-01-12 12:36:05.3356 ERROR Exception : Object reference not set to an instance of an object.
+2021-01-12 12:36:05.3356 INFO Entering Logout action method of AccountController.
+2021-01-12 12:36:05.3505 ERROR Exception : Object reference not set to an instance of an object.
+2021-01-12 12:36:05.3505 INFO Entering Index action method of HomeController.
+2021-01-12 12:36:05.3505 ERROR Exception : Object reference not set to an instance of an object.
+2021-01-12 12:36:05.3505 INFO Entering Index action method of HomeController.
+2021-01-12 12:36:05.3505 ERROR Exception : Object reference not set to an instance of an object.
+2021-01-12 12:36:05.3505 INFO Entering Index action method of HomeController.
+2021-01-12 12:36:05.3505 ERROR Exception : Object reference not set to an instance of an object.
+2021-01-12 12:36:05.3665 INFO Entering Add action method (Get) of ProductController.
+2021-01-12 12:36:05.3665 ERROR Exception (Add action method (Get) of ProductController) : Object reference not set to an instance of an object.
+2021-01-12 12:36:05.3665 ERROR Exception (Display action method of ProductController) : Object reference not set to an instance of an object.
+2021-01-12 12:36:05.3665 INFO Entering Edit action method (Get) of ProductController.
+2021-01-12 12:36:05.3665 ERROR Exception (Edit action method (Get) of ProductController) : Object reference not set to an instance of an object.
+2021-01-12 12:36:05.3665 INFO Entering Edit action method (Get) of ProductController.
+2021-01-12 12:36:05.3814 ERROR Exception (Edit action method (Get) of ProductController) : Object reference not set to an instance of an object.
+2021-01-12 12:36:05.3814 INFO Entering Delete action method of ProductController.
+2021-01-12 12:36:05.3814 ERROR Exception (Delete action method of ProductController) : Object reference not set to an instance of an object.
+2021-01-12 12:36:05.3814 INFO Entering Delete action method of ProductController.
+2021-01-12 12:36:05.3814 ERROR Exception (Delete action method of ProductController) : Object reference not set to an instance of an object.

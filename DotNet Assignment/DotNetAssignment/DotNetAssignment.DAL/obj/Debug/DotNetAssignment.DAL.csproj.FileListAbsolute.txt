@@ -1,0 +1,14 @@
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\bin\Debug\DotNetAssignment.DAL.dll.config
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\bin\Debug\DotNetAssignment.DAL.dll
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\bin\Debug\DotNetAssignment.DAL.pdb
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\bin\Debug\DotNetAssignment.Models.dll
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\bin\Debug\EntityFramework.dll
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\bin\Debug\DotNetAssignment.Models.pdb
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\bin\Debug\EntityFramework.xml
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\obj\Debug\DotNetAssignment.DAL.csprojAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\obj\Debug\DotNetAssignment.DAL.csproj.CoreCompileInputs.cache
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\obj\Debug\DotNetAssignment.DAL.csproj.CopyComplete
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\obj\Debug\DotNetAssignment.DAL.dll
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.DAL\obj\Debug\DotNetAssignment.DAL.pdb

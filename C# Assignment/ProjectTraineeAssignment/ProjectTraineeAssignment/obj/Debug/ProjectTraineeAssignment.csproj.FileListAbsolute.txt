@@ -1,0 +1,140 @@
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ApplicationInsights.config
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\csc.exe
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\System.Collections.Immutable.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\System.Reflection.Metadata.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\vbc.exe
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\VBCSCompiler.exe
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\VBCSCompiler.exe.config
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.dll.config
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.pdb
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.Agent.Intercept.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.DependencyCollector.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.Web.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.WindowsServer.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.ApplicationInsights.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.Web.Infrastructure.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Newtonsoft.Json.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.Models.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Net.Http.Formatting.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Helpers.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Http.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Http.WebHost.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Mvc.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Razor.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Webpages.Deployment.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Webpages.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Webpages.Razor.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.Models.pdb
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.DependencyCollector.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.Web.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.WindowsServer.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.ApplicationInsights.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Razor.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Webpages.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Webpages.Deployment.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Webpages.Razor.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Helpers.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Mvc.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Newtonsoft.Json.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Net.Http.Formatting.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Http.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Http.WebHost.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\obj\Debug\ProjectTraineeAssignment.csprojResolveAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\obj\Debug\ProjectTraineeAssignment.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\obj\Debug\ProjectTraineeAssignment.pdb
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\EntityFramework.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\EntityFramework.SqlServer.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\EntityFramework.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\EntityFramework.SqlServer.xml
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\NLog.config
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\NLog.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\NLog.xml
+F:\AliAbbas\Work\Gateway\Assignments\Product Management Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\obj\Debug\ProjectTraineeAssignment.csprojResolveAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\NLog.config
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ApplicationInsights.config
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\csc.exe
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\System.Collections.Immutable.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\System.Reflection.Metadata.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\vbc.exe
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\VBCSCompiler.exe
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\roslyn\VBCSCompiler.exe.config
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.dll.config
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.pdb
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\EntityFramework.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\EntityFramework.SqlServer.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.Agent.Intercept.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.DependencyCollector.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.Web.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.WindowsServer.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.ApplicationInsights.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.Web.Infrastructure.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Newtonsoft.Json.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\NLog.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.BAL.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.Models.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Net.Http.Formatting.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Helpers.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Http.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Http.WebHost.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Mvc.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Razor.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Webpages.Deployment.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Webpages.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Webpages.Razor.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Unity.Abstractions.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Unity.Container.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Unity.WebApi.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.DAL.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.BAL.pdb
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.Models.pdb
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\EntityFramework.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\EntityFramework.SqlServer.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.DependencyCollector.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.Web.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.AI.WindowsServer.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.ApplicationInsights.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\NLog.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Net.Http.Formatting.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Http.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Unity.Abstractions.pdb
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Unity.Container.pdb
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Razor.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Webpages.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Webpages.Deployment.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Webpages.Razor.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Helpers.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Mvc.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\Newtonsoft.Json.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\System.Web.Http.WebHost.xml
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\ProjectTraineeAssignment.DAL.pdb
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\obj\Debug\ProjectTraineeAssignment.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\obj\Debug\ProjectTraineeAssignment.pdb
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\AutoMapper.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment\bin\AutoMapper.xml

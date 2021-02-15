@@ -1,0 +1,26 @@
+2021-01-05 11:33:22.1354 INFO Entering Index action method of HomeController.
+2021-01-05 11:33:22.1623 ERROR Exception : Object reference not set to an instance of an object.
+2021-01-05 11:35:49.3178 INFO Entering Index action method of HomeController.
+2021-01-05 11:35:49.3517 ERROR Exception : Object reference not set to an instance of an object.
+2021-01-05 11:37:11.0265 INFO Entering Index action method of HomeController.
+2021-01-05 11:37:11.0495 ERROR Exception : Object reference not set to an instance of an object.
+2021-01-05 15:52:48.9887 INFO Entering Add action method (Get) of ProductController.
+2021-01-05 15:52:49.0136 ERROR Exception (Add action method (Get) of ProductController) : Object reference not set to an instance of an object.
+2021-01-05 15:53:49.6968 INFO Entering Add action method (Get) of ProductController.
+2021-01-05 15:53:49.7217 ERROR Exception (Add action method (Get) of ProductController) : Object reference not set to an instance of an object.
+2021-01-05 15:54:39.3465 INFO Entering Add action method (Get) of ProductController.
+2021-01-05 15:54:39.3764 ERROR Exception (Add action method (Get) of ProductController) : Object reference not set to an instance of an object.
+2021-01-05 15:54:52.5302 INFO Entering Add action method (Get) of ProductController.
+2021-01-05 15:54:52.5572 ERROR Exception (Add action method (Get) of ProductController) : Object reference not set to an instance of an object.
+2021-01-05 15:55:05.0572 INFO Entering Add action method (Get) of ProductController.
+2021-01-05 15:55:05.0881 ERROR Exception (Add action method (Get) of ProductController) : Object reference not set to an instance of an object.
+2021-01-05 15:55:16.9946 INFO Entering Add action method (Get) of ProductController.
+2021-01-05 15:55:17.0784 ERROR Exception (Add action method (Get) of ProductController) : Object reference not set to an instance of an object.
+2021-01-05 23:24:30.6515 INFO Entering Add action method (Get) of ProductController.
+2021-01-05 23:24:30.7881 ERROR Exception (Add action method (Get) of ProductController) : Object reference not set to an instance of an object.
+2021-01-05 23:26:16.0643 INFO Entering Display action method of ProductController.
+2021-01-05 23:26:16.0955 ERROR Exception (Display action method of ProductController) : Object reference not set to an instance of an object.
+2021-01-05 23:27:23.7498 INFO Entering Display action method of ProductController.
+2021-01-05 23:27:23.7798 ERROR Exception (Display action method of ProductController) : Object reference not set to an instance of an object.
+2021-01-05 23:27:41.8874 INFO Entering Display action method of ProductController.
+2021-01-05 23:27:41.9322 ERROR Exception (Display action method of ProductController) : Object reference not set to an instance of an object.

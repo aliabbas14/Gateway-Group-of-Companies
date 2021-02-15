@@ -1,0 +1,9 @@
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.BAL\bin\Debug\DotNetAssignment.BAL.dll
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.BAL\bin\Debug\DotNetAssignment.BAL.pdb
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.BAL\bin\Debug\DotNetAssignment.Models.dll
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.BAL\bin\Debug\DotNetAssignment.Models.pdb
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.BAL\obj\Debug\DotNetAssignment.BAL.csprojAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.BAL\obj\Debug\DotNetAssignment.BAL.csproj.CoreCompileInputs.cache
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.BAL\obj\Debug\DotNetAssignment.BAL.csproj.CopyComplete
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.BAL\obj\Debug\DotNetAssignment.BAL.dll
+F:\AliAbbas\Work\Gateway\.net Assignment\DotNetAssignment\DotNetAssignment.BAL\obj\Debug\DotNetAssignment.BAL.pdb

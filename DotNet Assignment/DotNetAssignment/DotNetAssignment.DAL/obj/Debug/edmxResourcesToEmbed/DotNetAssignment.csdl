@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DotNetAssignmentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="HomePhone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pwd" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address2" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Zipcode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Vehicles" Relationship="Self.FK_Vehicles_Customers" FromRole="Customers" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="Dealer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pwd" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address2" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Zipcode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Mechanics" Relationship="Self.FK_Mechanics_Dealers" FromRole="Dealers" ToRole="Mechanics" />
+  </EntityType>
+  <EntityType Name="Mechanic">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DealerId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Brand" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Dealer" Relationship="Self.FK_Mechanics_Dealers" FromRole="Mechanics" ToRole="Dealers" />
+    <NavigationProperty Name="Services" Relationship="Self.FK_Services_Mechanics" FromRole="Mechanics" ToRole="Services" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VehicleId" Type="Int32" Nullable="false" />
+    <Property Name="MechanicId" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Mechanic" Relationship="Self.FK_Services_Mechanics" FromRole="Services" ToRole="Mechanics" />
+    <NavigationProperty Name="Vehicle" Relationship="Self.FK_Services_Vehicles" FromRole="Services" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="Vehicle">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerId" Type="Int32" Nullable="false" />
+    <Property Name="LicensePlate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Brand" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RegDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ChassisNo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Vehicles_Customers" FromRole="Vehicles" ToRole="Customers" />
+    <NavigationProperty Name="Services" Relationship="Self.FK_Services_Vehicles" FromRole="Vehicles" ToRole="Services" />
+  </EntityType>
+  <Association Name="FK_Vehicles_Customers">
+    <End Role="Customers" Type="Self.Customer" Multiplicity="1" />
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Vehicles">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mechanics_Dealers">
+    <End Role="Dealers" Type="Self.Dealer" Multiplicity="1" />
+    <End Role="Mechanics" Type="Self.Mechanic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dealers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Mechanics">
+        <PropertyRef Name="DealerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Services_Mechanics">
+    <End Role="Mechanics" Type="Self.Mechanic" Multiplicity="1" />
+    <End Role="Services" Type="Self.Service" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Mechanics">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Services">
+        <PropertyRef Name="MechanicId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Services_Vehicles">
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="1" />
+    <End Role="Services" Type="Self.Service" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vehicles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Services">
+        <PropertyRef Name="VehicleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DotNetAssignmentEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Dealers" EntityType="Self.Dealer" />
+    <EntitySet Name="Mechanics" EntityType="Self.Mechanic" />
+    <EntitySet Name="Services" EntityType="Self.Service" />
+    <EntitySet Name="Vehicles" EntityType="Self.Vehicle" />
+    <AssociationSet Name="FK_Vehicles_Customers" Association="Self.FK_Vehicles_Customers">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Vehicles" EntitySet="Vehicles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mechanics_Dealers" Association="Self.FK_Mechanics_Dealers">
+      <End Role="Dealers" EntitySet="Dealers" />
+      <End Role="Mechanics" EntitySet="Mechanics" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Services_Mechanics" Association="Self.FK_Services_Mechanics">
+      <End Role="Mechanics" EntitySet="Mechanics" />
+      <End Role="Services" EntitySet="Services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Services_Vehicles" Association="Self.FK_Services_Vehicles">
+      <End Role="Vehicles" EntitySet="Vehicles" />
+      <End Role="Services" EntitySet="Services" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

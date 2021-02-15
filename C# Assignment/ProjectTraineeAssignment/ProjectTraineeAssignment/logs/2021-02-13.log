@@ -1,0 +1,6 @@
+2021-02-13 17:03:22.3755 INFO Entering Index action method of HomeController.
+2021-02-13 17:03:23.5673 INFO Entering Login action method (Get) of AccountController.
+2021-02-13 17:04:32.5833 INFO Entering Register action method (Get) of AccountController.
+2021-02-13 17:05:25.7451 INFO Entering Register action method (Post) of AccountController.
+2021-02-13 17:05:30.5582 INFO Exiting Register action method (Post) of AccountController. Registration Success.
+2021-02-13 17:05:30.5792 INFO Entering Login action method (Get) of AccountController.

@@ -1,0 +1,10 @@
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.Models\bin\Debug\ProjectTraineeAssignment.Models.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.Models\bin\Debug\ProjectTraineeAssignment.Models.pdb
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.Models\obj\Debug\ProjectTraineeAssignment.Models.csprojResolveAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.Models\obj\Debug\ProjectTraineeAssignment.Models.dll
+F:\AliAbbas\Work\Gateway\Project Trainee Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.Models\obj\Debug\ProjectTraineeAssignment.Models.pdb
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.Models\bin\Debug\ProjectTraineeAssignment.Models.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.Models\bin\Debug\ProjectTraineeAssignment.Models.pdb
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.Models\obj\Debug\ProjectTraineeAssignment.Models.csprojResolveAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.Models\obj\Debug\ProjectTraineeAssignment.Models.dll
+F:\AliAbbas\Work\Gateway\C# Assignment\ProjectTraineeAssignment\ProjectTraineeAssignment.Models\obj\Debug\ProjectTraineeAssignment.Models.pdb
