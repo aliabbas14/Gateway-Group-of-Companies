@@ -1,0 +1,9 @@
+F:\AliAbbas\Work\Gateway\Testing\TestingAssignment1\TestingAssignment1.DAL\bin\Debug\TestingAssignment1.DAL.dll
+F:\AliAbbas\Work\Gateway\Testing\TestingAssignment1\TestingAssignment1.DAL\bin\Debug\TestingAssignment1.DAL.pdb
+F:\AliAbbas\Work\Gateway\Testing\TestingAssignment1\TestingAssignment1.DAL\bin\Debug\TestingAssignment1.Models.dll
+F:\AliAbbas\Work\Gateway\Testing\TestingAssignment1\TestingAssignment1.DAL\bin\Debug\TestingAssignment1.Models.pdb
+F:\AliAbbas\Work\Gateway\Testing\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.csprojAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\Testing\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.csproj.CoreCompileInputs.cache
+F:\AliAbbas\Work\Gateway\Testing\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.csproj.CopyComplete
+F:\AliAbbas\Work\Gateway\Testing\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.dll
+F:\AliAbbas\Work\Gateway\Testing\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.pdb

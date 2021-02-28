@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj": {}
+  },
+  "projects": {
+    "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj",
+        "projectName": "TestingAssignment1.DAL",
+        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj",
+        "projectName": "TestingAssignment1.Models",
+        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj",
+        "projectName": "TestingAssignment1.Test",
+        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj",
+        "packagesPath": "C:\\Users\\aliabbas\\.nuget\\packages\\",
+        "outputPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\aliabbas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj"
+              },
+              "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
+              },
+              "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj",
+        "projectName": "TestingAssignment1",
+        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj"
+              },
+              "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
