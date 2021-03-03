@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj",
+        "projectName": "TestingAssignment2.Test",
+        "projectPath": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj",
+        "packagesPath": "C:\\Users\\ali.bhojani\\.nuget\\packages\\",
+        "outputPath": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ali.bhojani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj": {
+                "projectPath": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj",
+        "projectName": "TestingAssignment2",
+        "projectPath": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj",
+        "packagesPath": "C:\\Users\\ali.bhojani\\.nuget\\packages\\",
+        "outputPath": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ali.bhojani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -7,6 +7,10 @@ namespace TestingAssignment2
 {
     public static class UtilityExtension
     {
+
+        /*
+            This method accepts string data as input and returns lower case output.
+             */
         public static string ToLowerCase(this string data)
         {
             if (data.Length > 0)
@@ -16,6 +20,9 @@ namespace TestingAssignment2
             return data;
         }
 
+        /*
+            This method accepts string data as input and returns upper case output.
+             */
         public static string ToUpperCase(this string data)
         {
             if (data.Length > 0)
@@ -25,6 +32,9 @@ namespace TestingAssignment2
             return data;
         }
 
+        /*
+            This method accepts string data as input and returns title case output.
+             */
         public static string ToTitleCase(this string data)
         {
             if (data.Length > 0)
@@ -36,6 +46,9 @@ namespace TestingAssignment2
             return data;
         }
 
+        /*
+            This method accepts string data as input and returns true if all the letters are in lower case otherwise false.
+             */
         public static bool HasAllLower(this string data)
         {
             string mydata = data;
@@ -65,6 +78,9 @@ namespace TestingAssignment2
         }
 
 
+        /*
+            This method accepts string data as input and returns the string with first letter as upper case.
+             */
         public static string FirstLetterToUpper(this string data)
         {
             if (data.Length > 0)
@@ -76,6 +92,9 @@ namespace TestingAssignment2
             return data;
         }
 
+        /*
+            This method accepts string data as input and returns true if all the letters are in upper case otherwise false.
+             */
         public static bool HasAllUpper(this string data)
         {
             string mydata = data;
@@ -104,17 +123,29 @@ namespace TestingAssignment2
             }
         }
 
+
+        /*
+            This method accepts string data as input and returns true if it is valid numeric.
+             */
         public static bool ValidNumeric(this string data)
         {
             int number = 0;
             return int.TryParse(data, out number);
         }
 
+
+        /*
+            This method accepts string data as input and returns the string after removing the last character.
+             */
         public static string RemoveLastCharacter(this string data)
         {
             return data.Remove(data.Length - 1, 1);
         }
 
+
+        /*
+            This method accepts string data as input and returns total number of words in the string.
+             */
         public static int WordCount(this string data)
         {
             int i = 0, Count = 1;
@@ -129,7 +160,11 @@ namespace TestingAssignment2
             return Count;
         }
 
-        public static int? StringToInteger(this string data)
+
+        /*
+            This method accepts string data as input and returns its converted integer value.
+             */
+        public static int StringToInteger(this string data)
         {
             if (data.ValidNumeric())
             {

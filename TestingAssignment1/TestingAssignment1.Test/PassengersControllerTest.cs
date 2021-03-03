@@ -23,6 +23,10 @@ namespace TestingAssignment1.Test
             _controller = new PassengersController(mockRepository.Object);
         }
 
+
+        /*
+            This method tests the GetPassengers method if all the inputs are entered correctly.
+             */
         [Fact]
         public void Test_GetPassengers()
         {
@@ -38,6 +42,10 @@ namespace TestingAssignment1.Test
             Assert.Equal(2, response.Count);
         }
 
+
+        /*
+            This method tests the GetPassengers method if all the inputs are not entered correctly.
+             */
         [Fact]
         public void Test_GetPassengersFail()
         {
@@ -53,6 +61,10 @@ namespace TestingAssignment1.Test
             Assert.NotEqual(3, response.Count);
         }
 
+
+        /*
+            This method tests the DeletePassenger method if all the inputs are entered correctly.
+             */
         [Fact]
         public void Test_DeletePassenger()
         {
@@ -65,6 +77,9 @@ namespace TestingAssignment1.Test
         }
 
 
+        /*
+            This method tests the DeletePassenger method if all the inputs are not entered correctly.
+             */
         [Fact]
         public void Test_DeletePassengerFail()
         {
@@ -76,6 +91,10 @@ namespace TestingAssignment1.Test
             Assert.NotEqual("Passenger Deleted", response);
         }
 
+
+        /*
+            This method tests the AddPassenger method if all the inputs are entered correctly.
+             */
         [Fact]
         public void Test_AddPassenger()
         {
@@ -87,7 +106,9 @@ namespace TestingAssignment1.Test
             Assert.Equal("Passenger Added", response);
         }
 
-
+        /*
+            This method tests the AddPassenger method if all the inputs are not entered correctly.
+             */
         [Fact]
         public void Test_AddPassengerFail()
         {
@@ -100,6 +121,10 @@ namespace TestingAssignment1.Test
             Assert.NotEqual("Passenger Added", response);
         }
 
+
+        /*
+            This method tests the EditPassenger method if all the inputs are entered correctly.
+             */
         [Fact]
         public void Test_EditPassenger()
         {
@@ -113,6 +138,9 @@ namespace TestingAssignment1.Test
         }
 
 
+        /*
+            This method tests the EditPassenger method if all the inputs are not entered correctly.
+             */
         [Fact]
         public void Test_EditPassengerFail()
         {
@@ -125,6 +153,9 @@ namespace TestingAssignment1.Test
             Assert.NotEqual("Passenger Edited", response);
         }
 
+        /*
+            This method tests the GetPassenger method if all the inputs are entered correctly.
+             */
         [Fact]
         public void Test_GetPassenger()
         {
@@ -138,6 +169,9 @@ namespace TestingAssignment1.Test
         }
 
 
+        /*
+            This method tests the GetPassenger method if all the inputs are not entered correctly.
+             */
         [Fact]
         public void Test_GetPassengerFail()
         {
