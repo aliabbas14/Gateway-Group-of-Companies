@@ -3,3 +3,9 @@ F:\AliAbbas\Work\Gateway\Web Api Final Assignment\WebApiFinalAssignment\WebApiFi
 F:\AliAbbas\Work\Gateway\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.Models\obj\Debug\WebApiFinalAssignment.Models.csprojResolveAssemblyReference.cache
 F:\AliAbbas\Work\Gateway\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.Models\obj\Debug\WebApiFinalAssignment.Models.dll
 F:\AliAbbas\Work\Gateway\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.Models\obj\Debug\WebApiFinalAssignment.Models.pdb
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.Models\bin\Debug\WebApiFinalAssignment.Models.dll
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.Models\bin\Debug\WebApiFinalAssignment.Models.pdb
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.Models\obj\Debug\WebApiFinalAssignment.Models.csprojAssemblyReference.cache
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.Models\obj\Debug\WebApiFinalAssignment.Models.csproj.CoreCompileInputs.cache
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.Models\obj\Debug\WebApiFinalAssignment.Models.dll
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.Models\obj\Debug\WebApiFinalAssignment.Models.pdb

@@ -10,3 +10,17 @@ F:\AliAbbas\Work\Gateway\Web Api Final Assignment\WebApiFinalAssignment\WebApiFi
 F:\AliAbbas\Work\Gateway\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\obj\Debug\WebApiFinalAssignment.DAL.csprojResolveAssemblyReference.cache
 F:\AliAbbas\Work\Gateway\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\obj\Debug\WebApiFinalAssignment.DAL.dll
 F:\AliAbbas\Work\Gateway\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\obj\Debug\WebApiFinalAssignment.DAL.pdb
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\bin\Debug\WebApiFinalAssignment.DAL.dll.config
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\bin\Debug\WebApiFinalAssignment.DAL.dll
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\bin\Debug\WebApiFinalAssignment.DAL.pdb
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\bin\Debug\EntityFramework.dll
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\bin\Debug\WebApiFinalAssignment.Models.dll
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\bin\Debug\WebApiFinalAssignment.Models.pdb
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\bin\Debug\EntityFramework.xml
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\obj\Debug\WebApiFinalAssignment.DAL.csprojAssemblyReference.cache
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\obj\Debug\WebApiFinalAssignment.DAL.csproj.CoreCompileInputs.cache
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\obj\Debug\WebApiFinalAssignment.DAL.csproj.CopyComplete
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\obj\Debug\WebApiFinalAssignment.DAL.dll
+D:\Assignments\Gateway-Group-of-Companies\Web Api Final Assignment\WebApiFinalAssignment\WebApiFinalAssignment.DAL\obj\Debug\WebApiFinalAssignment.DAL.pdb
