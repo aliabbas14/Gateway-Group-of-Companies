@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj": {}
+    "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj": {}
   },
   "projects": {
-    "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj": {
+    "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj",
+        "projectUniqueName": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj",
         "projectName": "AspNetCoreAssignment.Models",
-        "projectPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj",
+        "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj",
         "packagesPath": "C:\\Users\\ali.bhojani\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\obj\\",
+        "outputPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

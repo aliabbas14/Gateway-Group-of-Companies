@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "50u06RfFaQf5j+ZXvMNZAfs11zpUafRh8LvLOAlNwLDhlpbaBIKMswleOcEM3aDXko5iOGdUajrnHudiZz8y5Q==",
+  "dgSpecHash": "OpmEt8jxtTBQRho57VLSfagU7cd94c4olH1e9BCZaPn/fOqw55NGqRvton2PFdHAXujuinabAKQe3Oi+8kADgg==",
   "success": true,
-  "projectFilePath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj",
+  "projectFilePath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

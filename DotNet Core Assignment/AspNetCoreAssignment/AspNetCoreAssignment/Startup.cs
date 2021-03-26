@@ -17,6 +17,7 @@ using AspNetCoreAssignment.BAL;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using System.IO;
 
 namespace AspNetCoreAssignment
 {
@@ -59,8 +60,12 @@ namespace AspNetCoreAssignment
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,ILoggerFactory loggerFactory)
         {
+            var path = Directory.GetCurrentDirectory();
+            loggerFactory.AddFile("Logs/Errors/mylog-{Date}.txt");
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

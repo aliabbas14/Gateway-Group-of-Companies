@@ -4,8 +4,11 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -25,14 +28,18 @@ namespace AspNetCoreAssignment.MVC
         {
             services.AddDistributedMemoryCache();
             services.AddSession(options => {
-                options.IdleTimeout = TimeSpan.FromMinutes(1);//You can set Time   
+                options.IdleTimeout = TimeSpan.FromMinutes(60);//You can set Time   
             });
+            
             services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger, ILoggerFactory loggerFactory)
         {
+            var path = Directory.GetCurrentDirectory();
+            loggerFactory.AddFile("Logs/mylog-{Date}.txt");
+
             app.UseSession();
             if (env.IsDevelopment())
             {
@@ -49,9 +56,20 @@ namespace AspNetCoreAssignment.MVC
 
             app.UseRouting();
 
+            
+
             app.UseAuthorization();
 
-           
+            app.Use(async (context, next) =>
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                await next.Invoke();
+                stopWatch.Stop();
+                TimeSpan ts = stopWatch.Elapsed;
+                logger.LogInformation("Time Taken = "+ts);
+
+            });
 
             app.UseEndpoints(endpoints =>
             {

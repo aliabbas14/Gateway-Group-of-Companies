@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nk4lAUh85PE4TvEZxE+XxiyEEuCokCCgHREKtBEnruwoPRKk+Sfo00nEOu7nP+P3AaGhrNK2l2PpFRBQ5Wby3A==",
+  "dgSpecHash": "RVmLZL+TUCGPJlsYqqFi5OSNABlopRBZ5rQChF8VngcIaSronKGieFuPghSj4VYSBCDuFn7g7mfSQYaZ4vSZrA==",
   "success": true,
-  "projectFilePath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\AspNetCoreAssignment.BAL.csproj",
+  "projectFilePath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\AspNetCoreAssignment.BAL.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

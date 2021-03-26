@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment\\AspNetCoreAssignment.API.csproj": {}
+    "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment\\AspNetCoreAssignment.API.csproj": {}
   },
   "projects": {
-    "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\AspNetCoreAssignment.BAL.csproj": {
+    "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\AspNetCoreAssignment.BAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\AspNetCoreAssignment.BAL.csproj",
+        "projectUniqueName": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\AspNetCoreAssignment.BAL.csproj",
         "projectName": "AspNetCoreAssignment.BAL",
-        "projectPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\AspNetCoreAssignment.BAL.csproj",
+        "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\AspNetCoreAssignment.BAL.csproj",
         "packagesPath": "C:\\Users\\ali.bhojani\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\obj\\",
+        "outputPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,11 +31,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj": {
-                "projectPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj"
+              "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj": {
+                "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj"
               },
-              "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj": {
-                "projectPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj"
+              "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj": {
+                "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj": {
+    "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj",
+        "projectUniqueName": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj",
         "projectName": "AspNetCoreAssignment.DAL",
-        "projectPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj",
+        "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj",
         "packagesPath": "C:\\Users\\ali.bhojani\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\obj\\",
+        "outputPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -101,8 +101,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj": {
-                "projectPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj"
+              "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj": {
+                "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj"
               }
             }
           }
@@ -161,14 +161,14 @@
         }
       }
     },
-    "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj": {
+    "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj",
+        "projectUniqueName": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj",
         "projectName": "AspNetCoreAssignment.Models",
-        "projectPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj",
+        "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\AspNetCoreAssignment.Models.csproj",
         "packagesPath": "C:\\Users\\ali.bhojani\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\obj\\",
+        "outputPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -218,14 +218,14 @@
         }
       }
     },
-    "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment\\AspNetCoreAssignment.API.csproj": {
+    "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment\\AspNetCoreAssignment.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment\\AspNetCoreAssignment.API.csproj",
+        "projectUniqueName": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment\\AspNetCoreAssignment.API.csproj",
         "projectName": "AspNetCoreAssignment.API",
-        "projectPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment\\AspNetCoreAssignment.API.csproj",
+        "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment\\AspNetCoreAssignment.API.csproj",
         "packagesPath": "C:\\Users\\ali.bhojani\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment\\obj\\",
+        "outputPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -245,11 +245,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\AspNetCoreAssignment.BAL.csproj": {
-                "projectPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\AspNetCoreAssignment.BAL.csproj"
+              "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\AspNetCoreAssignment.BAL.csproj": {
+                "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.BAL\\AspNetCoreAssignment.BAL.csproj"
               },
-              "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj": {
-                "projectPath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj"
+              "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj": {
+                "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj"
               }
             }
           }
@@ -273,6 +273,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.4, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

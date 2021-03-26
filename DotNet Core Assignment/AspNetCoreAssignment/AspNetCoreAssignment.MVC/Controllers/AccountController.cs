@@ -25,16 +25,34 @@ namespace AspNetCoreAssignment.MVC.Controllers
         {
             using (HttpClient client = new HttpClient()) {
                 StringContent content = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
-                using (var response = await client.PostAsync("https://localhost:44369/api/Account/Login", content)) {
-                    var apiResponse = await response.Content.ReadAsStringAsync();
-                   // HttpContext.Session.SetString("Token", apiResponse);
-                    HttpContext.Session.SetString("Username", model.Username);
+                using (var response = await client.PostAsync("https://localhost:44369/api/Account/Login", content))
+                {
+                    if(response.StatusCode==System.Net.HttpStatusCode.OK)
+                    {
+                        var apiResponse = await response.Content.ReadAsStringAsync();
+                        HttpContext.Session.SetString("Token", apiResponse);
+                        HttpContext.Session.SetString("Username", model.Username);
+                        return RedirectToAction("Index", "Home");
+                    }
+                    else
+                    {
+                        ViewBag.Message = "Username or Password is incorrect.";
+                        return View();
+                    }
+                    
 
-                    return View();
+                    
                 }
             }
         }
 
+        [HttpGet]
+        public  IActionResult Logout()
+        {
+            HttpContext.Session.SetString("Token", "");
+            HttpContext.Session.SetString("Username","");
 
+            return RedirectToAction("Login", "Account");
+        }
     }
 }

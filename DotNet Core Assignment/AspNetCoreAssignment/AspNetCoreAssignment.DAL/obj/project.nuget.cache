@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C0B3Mve6qtL3p4WHqcr1ODit5D73vRoZwld3p4ICYWwKCnJ/oS1FdbwLyoU9e8Xw/x3c+7zATXuj5j2MVh6PZw==",
+  "dgSpecHash": "Yw7EEUewNG/vJT4pEXiN0kBXHmUVb6EHGsF8xnvFi3cEmmhiFx3bab9am++n1NDhWfUNn9bfiiHc0uhLpNnnXQ==",
   "success": true,
-  "projectFilePath": "D:\\.Net Core\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj",
+  "projectFilePath": "D:\\Assignments\\Gateway-Group-of-Companies\\DotNet Core Assignment\\AspNetCoreAssignment\\AspNetCoreAssignment.DAL\\AspNetCoreAssignment.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ali.bhojani\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

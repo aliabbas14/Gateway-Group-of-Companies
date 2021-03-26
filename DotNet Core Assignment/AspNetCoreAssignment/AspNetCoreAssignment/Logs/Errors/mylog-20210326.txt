@@ -1,0 +1,4 @@
+2021-03-26T18:33:27.2966261+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-26T18:33:27.3489705+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-26T18:33:27.3791533+05:30  [INF] Content root path: "D:\Assignments\Gateway-Group-of-Companies\DotNet Core Assignment\AspNetCoreAssignment\AspNetCoreAssignment" (b5d60022)
+2021-03-26T18:35:34.9114572+05:30 80000076-0002-fd00-b63f-84710c7967bb [ERR] hello (c8fd181b)
