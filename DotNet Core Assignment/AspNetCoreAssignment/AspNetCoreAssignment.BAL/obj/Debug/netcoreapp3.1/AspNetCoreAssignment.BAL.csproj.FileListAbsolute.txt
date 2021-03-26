@@ -1,0 +1,14 @@
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\bin\Debug\netcoreapp3.1\AspNetCoreAssignment.BAL.deps.json
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\bin\Debug\netcoreapp3.1\AspNetCoreAssignment.BAL.dll
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\bin\Debug\netcoreapp3.1\AspNetCoreAssignment.BAL.pdb
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\obj\Debug\netcoreapp3.1\AspNetCoreAssignment.BAL.csprojAssemblyReference.cache
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\obj\Debug\netcoreapp3.1\AspNetCoreAssignment.BAL.AssemblyInfoInputs.cache
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\obj\Debug\netcoreapp3.1\AspNetCoreAssignment.BAL.AssemblyInfo.cs
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\obj\Debug\netcoreapp3.1\AspNetCoreAssignment.BAL.csproj.CoreCompileInputs.cache
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\obj\Debug\netcoreapp3.1\AspNetCoreAssignment.BAL.dll
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\obj\Debug\netcoreapp3.1\AspNetCoreAssignment.BAL.pdb
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\bin\Debug\netcoreapp3.1\AspNetCoreAssignment.Models.dll
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\bin\Debug\netcoreapp3.1\AspNetCoreAssignment.Models.pdb
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\obj\Debug\netcoreapp3.1\AspNetCoreAssignment.BAL.csproj.CopyComplete
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\bin\Debug\netcoreapp3.1\AspNetCoreAssignment.DAL.dll
+D:\.Net Core\AspNetCoreAssignment\AspNetCoreAssignment.BAL\bin\Debug\netcoreapp3.1\AspNetCoreAssignment.DAL.pdb
