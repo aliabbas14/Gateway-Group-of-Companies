@@ -21,7 +21,7 @@ namespace AspNetCoreAssignment.MVC.Controllers
 
         public IActionResult Index()
         {
-            if(HttpContext.Session.GetString("Token")==null) {
+            if (HttpContext.Session.GetString("Token") == null) {
                 return RedirectToAction("Login", "Account");
             }
             ViewBag.Username = HttpContext.Session.GetString("Username");

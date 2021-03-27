@@ -26,6 +26,10 @@ namespace AspNetCoreAssignment.Controllers
             _logger = logger;
         }
 
+
+        //<summary>
+        //    This api returns the list of all the employess in the table.
+        //</summary>
         [HttpGet]
         [Route("GetEmployees")]
         public IActionResult GetEmployees()
@@ -42,6 +46,9 @@ namespace AspNetCoreAssignment.Controllers
             
         }
 
+        //<summary>
+        //    This api accepts one argument that is id of employee and returns all the data of that particular employee.    
+        //</summary>
         [HttpGet]
         [Route("GetEmployee")]
         public IActionResult GetEmployee(int id)
@@ -56,6 +63,9 @@ namespace AspNetCoreAssignment.Controllers
             }
         }
 
+        //<summary>
+        //    This api accepts one argument as object of EmployeesModel and inserts the employee's data in the database.
+        //</summary>
         [HttpPost]
         [Route("PostEmployee")]
         public IActionResult PostEmployee(EmployeesModel model)
@@ -71,6 +81,9 @@ namespace AspNetCoreAssignment.Controllers
             }
         }
 
+        //<summary>
+        //    This api accepts two arguments employee's id and its other data and updates all the data of that particular employee.
+        //</summary>
         [HttpPut]
         [Route("PutEmployee")]
         public IActionResult PutEmployee(int id,EmployeesModel model)
@@ -86,6 +99,9 @@ namespace AspNetCoreAssignment.Controllers
             }
         }
 
+        //<summary>
+        //    This api aceepts one argument that is id of employee and deletes that particular employee from the table.
+        //</summary>
         [HttpDelete]
         [Route("DeleteEmployee")]
         public IActionResult DeleteEmployee(int id)
@@ -101,6 +117,9 @@ namespace AspNetCoreAssignment.Controllers
             }
         }
 
+        //<summary>
+        //    This api returns list of all the employees who are managers.
+        //</summary>
         [HttpGet]
         [Route("GetManagers")]
         public IActionResult GetManagers()

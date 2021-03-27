@@ -27,6 +27,7 @@ namespace AspNetCoreAssignment.Models
         public string Phone { get; set; }
         [Required]
         [StringLength(50)]
+        [EmailAddress]
         public string Email { get; set; }
     }
 }

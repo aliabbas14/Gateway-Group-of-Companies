@@ -240,3 +240,4 @@ D:\Assignments\Gateway-Group-of-Companies\DotNet Core Assignment\AspNetCoreAssig
 D:\Assignments\Gateway-Group-of-Companies\DotNet Core Assignment\AspNetCoreAssignment\AspNetCoreAssignment.MVC\bin\Debug\netcoreapp3.1\Serilog.Sinks.Async.dll
 D:\Assignments\Gateway-Group-of-Companies\DotNet Core Assignment\AspNetCoreAssignment\AspNetCoreAssignment.MVC\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 D:\Assignments\Gateway-Group-of-Companies\DotNet Core Assignment\AspNetCoreAssignment\AspNetCoreAssignment.MVC\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
+D:\Assignments\Gateway-Group-of-Companies\DotNet Core Assignment\AspNetCoreAssignment\AspNetCoreAssignment.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Account\Error.cshtml.g.cs

@@ -11,6 +11,10 @@ namespace AspNetCoreAssignment.DAL
 {
     public class AccountRepository : IAccountRepository
     {
+        //<summary>
+        //    This api accepts user's username and password and passes it to other layers and check wether the credentails are valid or not.
+        //    If credentails are valid it returns a JWT Token otherwise not.
+        //</summary>
         public string Login(LoginModel model)
         {
             if (model.Username == "admin" && model.Password == "admin")

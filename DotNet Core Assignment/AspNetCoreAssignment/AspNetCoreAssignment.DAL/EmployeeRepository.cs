@@ -16,6 +16,9 @@ namespace AspNetCoreAssignment.DAL
             _db = db;
         }
 
+        //<summary>
+        //    This api aceepts one argument that is id of employee and deletes that particular employee from the table.
+        //</summary>
         public void DeleteEmployee(int id)
         {
             var emp=_db.Employees.Where(x => x.Id == id).FirstOrDefault();
@@ -24,6 +27,9 @@ namespace AspNetCoreAssignment.DAL
 
         }
 
+        //<summary>
+        //    This api accepts one argument that is id of employee and returns all the data of that particular employee.    
+        //</summary>
         public EmployeesModel GetEmployee(int id)
         {
             var e=_db.Employees.Where(x => x.Id == id).FirstOrDefault();
@@ -42,6 +48,9 @@ namespace AspNetCoreAssignment.DAL
             return res;
         }
 
+        //<summary>
+        //    This api returns the list of all the employess in the table.
+        //</summary>
         public List<EmployeesModel> GetEmployees()
         {
             List<EmployeesModel> emp = new List<EmployeesModel>();
@@ -66,6 +75,9 @@ namespace AspNetCoreAssignment.DAL
              
         }
 
+        //<summary>
+        //    This api accepts one argument as object of EmployeesModel and inserts the employee's data in the database.
+        //</summary>
         public void PostEmployee(EmployeesModel model)
         {
             var emp = new Employees() {
@@ -83,6 +95,9 @@ namespace AspNetCoreAssignment.DAL
             _db.SaveChanges();
         }
 
+        //<summary>
+        //    This api accepts two arguments employee's id and its other data and updates all the data of that particular employee.
+        //</summary>
         public void PutEmployee(int id, EmployeesModel model)
         {
             var emp=_db.Employees.Where(x => x.Id == id).FirstOrDefault();
@@ -98,6 +113,9 @@ namespace AspNetCoreAssignment.DAL
 
         }
 
+        //<summary>
+        //    This api returns list of all the employees who are managers.
+        //</summary>
         public List<EmployeesModel> GetManagers()
         {
             

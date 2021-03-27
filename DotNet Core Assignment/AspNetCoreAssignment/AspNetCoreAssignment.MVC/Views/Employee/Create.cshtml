@@ -10,13 +10,13 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" id="form">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
+                <input asp-for="Name" id="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger" id="spanName"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Department" class="control-label"></label>
@@ -31,8 +31,8 @@
             </div>
             <div class="form-group">
                 <label asp-for="Salary" class="control-label"></label>
-                <input asp-for="Salary" class="form-control" />
-                <span asp-validation-for="Salary" class="text-danger"></span>
+                <input asp-for="Salary" id="salary" class="form-control" />
+                <span asp-validation-for="Salary" id="spanSalary" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
@@ -49,13 +49,13 @@
             </div>
             <div class="form-group">
                 <label asp-for="Phone" class="control-label"></label>
-                <input asp-for="Phone" class="form-control" />
-                <span asp-validation-for="Phone" class="text-danger"></span>
+                <input asp-for="Phone" id="phone" class="form-control" />
+                <span asp-validation-for="Phone" id="spanPhone" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
+                <input asp-for="Email" id="email" class="form-control" />
+                <span asp-validation-for="Email" id="spanEmail" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
@@ -70,4 +70,29 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+<script>
+    $(document).ready(function () {
+
+        $("#form").submit(function () {
+            var Name = $("#Name").val();
+            var Salary = $("#salary").val();
+            var Phone = $("#phone").val();
+            var Email = $("#email").val();
+
+            if (Name == "")
+                $("#spanName").text("Name is required.");
+            if (Salary == "")
+                $("#spanSalary").text("Salary is required.");
+            if (Phone == "")
+                $("#spanPhone").text("Phone is required.");
+            if (Email == "")
+                $("#spanEmail").text("Email is required.");
+        });
+        
+
+    });
+</script>
+
+
 }
