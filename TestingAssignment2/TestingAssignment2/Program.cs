@@ -7,61 +7,81 @@ namespace TestingAssignment2
         static void Main(string[] args)
         {
             /*
-                Implementing ToLowerCase method.
+                <summary>
+                    Implementing ToLowerCase method.
+                </summary>
              */
             string uppercase = "ABC";
             Console.WriteLine(uppercase.ToLowerCase());
 
             /*
-                Implementing ToUpperCase method.
+                <summary>
+                    Implementing ToUpperCase method.
+                </summary>
              */
             string lowercase = "abc";
             Console.WriteLine(lowercase.ToUpperCase());
 
             /*
-                Implementing ToTitleCase method.
+                <summary>
+                    Implementing ToTitleCase method.
+                </summary>
              */
             string titlecase = "abc";
             Console.WriteLine(titlecase.ToTitleCase());
 
             /*
-                Implementing HasAllLower method.
+                <summary>
+                    Implementing HasAllLower method.
+                </summary>
              */
             string alllower = "abc";
             Console.WriteLine(alllower.HasAllLower());
 
             /*
-                Implementing FirstLetterToUpper method.
+                <summary>
+                    Implementing FirstLetterToUpper method.
+                </summary>
              */
             string firstletter = "abc";
             Console.WriteLine(firstletter.FirstLetterToUpper());
 
             /*
-                Implementing HasAllUpper method.
+                <summary>
+                    Implementing HasAllUpper method.
+                </summary>
              */
             string allupper = "ABC";
             Console.WriteLine(allupper.HasAllUpper());
 
             /*
-                Implementing ValidNumeric method.
+                <summary>
+                    Implementing ValidNumeric method.
+                </summary>
              */
             string validNumeric = "55";
             Console.WriteLine(validNumeric.ValidNumeric());
 
             /*
-                Implementing RemoveLastCharacter method.
+                <summary>
+                    Implementing RemoveLastCharacter method.
+                </summary>
              */
             string lastChar = "abc";
             Console.WriteLine(lastChar.RemoveLastCharacter());
 
             /*
-                Implementing WordCount method.
+                <summary>
+                    Implementing WordCount method.
+                </summary>
              */
             string wordCount = "abc";
             Console.WriteLine(wordCount.WordCount());
 
             /*
-                Implementing StringToInteger method.
+                <summary>
+                    Implementing StringToInteger method.
+                </summary>
              */
             string strtoint = "5589";
             Console.WriteLine(strtoint.StringToInteger());

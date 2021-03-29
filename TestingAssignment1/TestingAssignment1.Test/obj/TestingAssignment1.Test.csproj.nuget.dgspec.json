@@ -1,19 +1,19 @@
 {
   "format": 1,
   "restore": {
-    "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj": {}
+    "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj": {}
   },
   "projects": {
-    "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj": {
+    "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj": {
       "restore": {
-        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj",
+        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj",
         "projectName": "TestingAssignment1.DAL",
-        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj",
+        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
-                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
+              "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
               }
             }
           }
@@ -23,24 +23,24 @@
         "net472": {}
       }
     },
-    "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
+    "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
       "restore": {
-        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj",
+        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj",
         "projectName": "TestingAssignment1.Models",
-        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
+        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj": {
+    "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj",
+        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj",
         "projectName": "TestingAssignment1.Test",
-        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj",
+        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj",
         "packagesPath": "C:\\Users\\aliabbas\\.nuget\\packages\\",
-        "outputPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Test\\obj\\",
+        "outputPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Test\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -57,14 +57,14 @@
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj": {
-                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj"
+              "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj"
               },
-              "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
-                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
+              "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
               },
-              "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj": {
-                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj"
+              "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj"
               }
             }
           }
@@ -112,19 +112,19 @@
         }
       }
     },
-    "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj": {
+    "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj": {
       "restore": {
-        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj",
+        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj",
         "projectName": "TestingAssignment1",
-        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj",
+        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj": {
-                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj"
+              "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj"
               },
-              "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
-                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Testing\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
+              "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
               }
             }
           }

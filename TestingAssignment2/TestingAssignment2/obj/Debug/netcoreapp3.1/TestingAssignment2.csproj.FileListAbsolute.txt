@@ -11,3 +11,16 @@ C:\Users\aliabbas\source\repos\TestingAssignment2\TestingAssignment2\obj\Debug\n
 C:\Users\aliabbas\source\repos\TestingAssignment2\TestingAssignment2\obj\Debug\netcoreapp3.1\TestingAssignment2.dll
 C:\Users\aliabbas\source\repos\TestingAssignment2\TestingAssignment2\obj\Debug\netcoreapp3.1\TestingAssignment2.pdb
 C:\Users\aliabbas\source\repos\TestingAssignment2\TestingAssignment2\obj\Debug\netcoreapp3.1\TestingAssignment2.genruntimeconfig.cache
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\bin\Debug\netcoreapp3.1\TestingAssignment2.exe
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\bin\Debug\netcoreapp3.1\TestingAssignment2.deps.json
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\bin\Debug\netcoreapp3.1\TestingAssignment2.runtimeconfig.json
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\bin\Debug\netcoreapp3.1\TestingAssignment2.runtimeconfig.dev.json
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\bin\Debug\netcoreapp3.1\TestingAssignment2.dll
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\bin\Debug\netcoreapp3.1\TestingAssignment2.pdb
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\obj\Debug\netcoreapp3.1\TestingAssignment2.csprojAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\obj\Debug\netcoreapp3.1\TestingAssignment2.AssemblyInfoInputs.cache
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\obj\Debug\netcoreapp3.1\TestingAssignment2.AssemblyInfo.cs
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\obj\Debug\netcoreapp3.1\TestingAssignment2.csproj.CoreCompileInputs.cache
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\obj\Debug\netcoreapp3.1\TestingAssignment2.dll
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\obj\Debug\netcoreapp3.1\TestingAssignment2.pdb
+F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment2\TestingAssignment2\obj\Debug\netcoreapp3.1\TestingAssignment2.genruntimeconfig.cache

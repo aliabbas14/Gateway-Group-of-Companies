@@ -10,7 +10,9 @@ namespace TestingAssignment2.Test
     {
 
         /*
-            This method tests the ToLowerCase method if all the inputs are entered coorectly.
+            <summary>
+                This method tests the ToLowerCase method if all the inputs are entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_ToLowerCase()
@@ -26,7 +28,9 @@ namespace TestingAssignment2.Test
         }
 
         /*
-            This method tests the ToLowerCase method if all the inputs are not entered coorectly.
+            <summary>
+                This method tests the ToLowerCase method if all the inputs are not entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_ToLowerCaseFail()
@@ -42,7 +46,60 @@ namespace TestingAssignment2.Test
         }
 
         /*
-            This method tests the ToUpperCase method if all the inputs are entered coorectly.
+            <summary>
+                This method tests the ToLowerCase method if all the inputs are not entered coorectly.
+            </summary>
+             */
+        public void Test_ToLowerCaseLowerCase()
+        {
+            //Arrange
+            string data = "abc";
+
+            //Act
+            string res = data.ToLowerCase();
+
+            //Assert
+            Assert.Equal("abc", res);
+        }
+
+        /*
+            <summary>
+                This method tests the ToLowerCase method if all the inputs are not entered coorectly.
+            </summary>
+             */
+        public void Test_ToLowerCaseSpecialCharacter()
+        {
+            //Arrange
+            string data = "@$/&*";
+
+            //Act
+            string res = data.ToLowerCase();
+
+            //Assert
+            Assert.Equal("@$/&*", res);
+        }
+
+        /*
+            <summary>
+                This method tests the ToLowerCase method if all the inputs are not entered coorectly.
+            </summary>
+             */
+        public void Test_ToLowerCaseTitleCase()
+        {
+            //Arrange
+            string data = "Abc";
+
+            //Act
+            string res = data.ToLowerCase();
+
+            //Assert
+            Assert.Equal("abc", res);
+        }
+
+        /*
+            <summary>
+                This method tests the ToUpperCase method if all the inputs are entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_ToUpperCase()
@@ -59,7 +116,9 @@ namespace TestingAssignment2.Test
 
 
         /*
-            This method tests the ToUpperCase method if all the inputs are not entered coorectly.
+            <summary>
+                This method tests the ToUpperCase method if all the inputs are not entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_ToUpperCaseFail()
@@ -74,9 +133,67 @@ namespace TestingAssignment2.Test
             Assert.NotEqual("Abc", res);
         }
 
+        /*
+           <summary>
+               This method tests the ToUpperCase method if all the inputs are not entered coorectly.
+           </summary>
+            */
+        [Fact]
+        public void Test_ToUpperCaseUpperCase()
+        {
+            //Arrange
+            string data = "ABC";
+
+            //Act
+            string res = data.ToUpperCase();
+
+            //Assert
+            Assert.Equal("ABC", res);
+        }
+
 
         /*
-            This method tests the ToTitleCase method if all the inputs are entered coorectly.
+          <summary>
+              This method tests the ToUpperCase method if all the inputs are not entered coorectly.
+          </summary>
+           */
+        [Fact]
+        public void Test_ToUpperCaseSpecialCharacter()
+        {
+            //Arrange
+            string data = "$#&*";
+
+            //Act
+            string res = data.ToUpperCase();
+
+            //Assert
+            Assert.Equal("$#&*", res);
+        }
+
+
+        /*
+          <summary>
+              This method tests the ToUpperCase method if all the inputs are not entered coorectly.
+          </summary>
+           */
+        [Fact]
+        public void Test_ToUpperCaseTitleCase()
+        {
+            //Arrange
+            string data = "Abc";
+
+            //Act
+            string res = data.ToUpperCase();
+
+            //Assert
+            Assert.Equal("ABC", res);
+        }
+
+
+        /*
+            <summary>
+                This method tests the ToTitleCase method if all the inputs are entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_ToTitleCase()
@@ -92,7 +209,9 @@ namespace TestingAssignment2.Test
         }
 
         /*
-            This method tests the ToTitleCase method if all the inputs are not entered coorectly.
+            <summary>
+                This method tests the ToTitleCase method if all the inputs are not entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_ToTitleCaseFail()
@@ -109,7 +228,65 @@ namespace TestingAssignment2.Test
 
 
         /*
-            This method tests the HasAllLower method if all the inputs are entered coorectly.
+            <summary>
+                This method tests the ToTitleCase method if all the inputs are not entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_ToTitleCaseUpperCase()
+        {
+            //Arrange
+            string data = "ABC";
+
+            //Act
+            string res = data.ToTitleCase();
+
+            //Assert
+            Assert.Equal("Abc", res);
+        }
+
+        /*
+            <summary>
+                This method tests the ToTitleCase method if all the inputs are not entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_ToTitleCaseSpecialCharacter()
+        {
+            //Arrange
+            string data = "#$%&";
+
+            //Act
+            string res = data.ToTitleCase();
+
+            //Assert
+            Assert.Equal("#$%&", res);
+        }
+
+
+        /*
+           <summary>
+               This method tests the ToTitleCase method if all the inputs are not entered coorectly.
+           </summary>
+            */
+        [Fact]
+        public void Test_ToTitleCaseTitleCase()
+        {
+            //Arrange
+            string data = "Abc";
+
+            //Act
+            string res = data.ToTitleCase();
+
+            //Assert
+            Assert.Equal("Abc", res);
+        }
+
+
+        /*
+            <summary>
+                This method tests the HasAllLower method if all the inputs are entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_HasAllLower()
@@ -125,7 +302,9 @@ namespace TestingAssignment2.Test
         }
 
         /*
-            This method tests the HasAllLower method if all the inputs are not entered coorectly.
+            <summary>
+                This method tests the HasAllLower method if all the inputs are not entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_HasAllLowerFail()
@@ -140,8 +319,67 @@ namespace TestingAssignment2.Test
             Assert.False(res);
         }
 
+
         /*
-            This method tests the FirstLetterToUpper method if all the inputs are entered coorectly.
+           <summary>
+               This method tests the HasAllLower method if all the inputs are entered coorectly.
+           </summary>
+            */
+        [Fact]
+        public void Test_HasAllLowerUpperCase()
+        {
+            //Arrange
+            string data = "ABC";
+
+            //Act
+            bool res = data.HasAllLower();
+
+            //Assert
+            Assert.False(res);
+        }
+
+        /*
+           <summary>
+               This method tests the HasAllLower method if all the inputs are entered coorectly.
+           </summary>
+            */
+        [Fact]
+        public void Test_HasAllLowerSpecialCharacter()
+        {
+            //Arrange
+            string data = "@#$%";
+
+            //Act
+            bool res = data.HasAllLower();
+
+            //Assert
+            Assert.False(res);
+        }
+
+
+        /*
+           <summary>
+               This method tests the HasAllLower method if all the inputs are entered coorectly.
+           </summary>
+            */
+        [Fact]
+        public void Test_HasAllLowerTitleCase()
+        {
+            //Arrange
+            string data = "Abc";
+
+            //Act
+            bool res = data.HasAllLower();
+
+            //Assert
+            Assert.False(res);
+        }
+
+
+        /*
+            <summary>
+                This method tests the FirstLetterToUpper method if all the inputs are entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_FirstLetterToUpper()
@@ -157,7 +395,9 @@ namespace TestingAssignment2.Test
         }
 
         /*
-            This method tests the FirstLetterToUpper method if all the inputs are not entered coorectly.
+            <summary>
+                This method tests the FirstLetterToUpper method if all the inputs are not entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_FirstLetterToUpperFail()
@@ -172,8 +412,48 @@ namespace TestingAssignment2.Test
             Assert.NotEqual("ABC", res);
         }
 
+
         /*
-            This method tests the HasAllUpper method if all the inputs are entered coorectly.
+            <summary>
+                This method tests the FirstLetterToUpper method if all the inputs are entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_FirstLetterToUpperUpperCase()
+        {
+            //Arrange
+            string data = "ABC";
+
+            //Act
+            string res = data.FirstLetterToUpper();
+
+            //Assert
+            Assert.Equal("ABC", res);
+        }
+
+
+        /*
+            <summary>
+                This method tests the FirstLetterToUpper method if all the inputs are entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_FirstLetterToUpperSpecialCharacter()
+        {
+            //Arrange
+            string data = "#$%^";
+
+            //Act
+            string res = data.FirstLetterToUpper();
+
+            //Assert
+            Assert.Equal("#$%^", res);
+        }
+
+        /*
+            <summary>
+                This method tests the HasAllUpper method if all the inputs are entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_HasAllUpper()
@@ -189,7 +469,9 @@ namespace TestingAssignment2.Test
         }
 
         /*
-            This method tests the HasAllUpper method if all the inputs are not entered coorectly.
+            <summary>
+                This method tests the HasAllUpper method if all the inputs are not entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_HasAllUpperFail()
@@ -204,8 +486,48 @@ namespace TestingAssignment2.Test
             Assert.False(res);
         }
 
+
         /*
-            This method tests the ValidNumeric method if all the inputs are entered coorectly.
+            <summary>
+                This method tests the HasAllUpper method if all the inputs are entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_HasAllUpperSpecialCharacter()
+        {
+            //Arrange
+            string data = "#$%^";
+
+            //Act
+            bool res = data.HasAllUpper();
+
+            //Assert
+            Assert.False(res);
+        }
+
+
+        /*
+            <summary>
+                This method tests the HasAllUpper method if all the inputs are entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_HasAllUpperTitleCase()
+        {
+            //Arrange
+            string data = "Abc";
+
+            //Act
+            bool res = data.HasAllUpper();
+
+            //Assert
+            Assert.False(res);
+        }
+
+        /*
+            <summary>
+                This method tests the ValidNumeric method if all the inputs are entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_ValidNumeric()
@@ -221,7 +543,9 @@ namespace TestingAssignment2.Test
         }
 
         /*
-            This method tests the ValidNumeric method if all the inputs are not entered coorectly.
+            <summary>
+                This method tests the ValidNumeric method if all the inputs are not entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_ValidNumericFail()
@@ -236,8 +560,66 @@ namespace TestingAssignment2.Test
             Assert.False(res);
         }
 
+
         /*
-            This method tests the RemoveLastCharacter method if all the inputs are entered coorectly.
+            <summary>
+                This method tests the ValidNumeric method if all the inputs are entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_ValidNumericUpperCase()
+        {
+            //Arrange
+            string data = "ABC";
+
+            //Act
+            bool res = data.ValidNumeric();
+
+            //Assert
+            Assert.False(res);
+        }
+
+        /*
+            <summary>
+                This method tests the ValidNumeric method if all the inputs are entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_ValidNumericSpecialCharacter()
+        {
+            //Arrange
+            string data = "#$%^";
+
+            //Act
+            bool res = data.ValidNumeric();
+
+            //Assert
+            Assert.False(res);
+        }
+
+
+        /*
+            <summary>
+                This method tests the ValidNumeric method if all the inputs are entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_ValidNumericTitleCase()
+        {
+            //Arrange
+            string data = "Abc";
+
+            //Act
+            bool res = data.ValidNumeric();
+
+            //Assert
+            Assert.False(res);
+        }
+
+        /*
+            <summary>
+                This method tests the RemoveLastCharacter method if all the inputs are entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_RemoveLastCharacter()
@@ -253,7 +635,9 @@ namespace TestingAssignment2.Test
         }
 
         /*
-            This method tests the RemoveLastCharacter method if all the inputs are not entered coorectly.
+            <summary>
+                This method tests the RemoveLastCharacter method if all the inputs are not entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_RemoveLastCharacterFail()
@@ -269,7 +653,46 @@ namespace TestingAssignment2.Test
         }
 
         /*
-            This method tests the WordCount method if all the inputs are entered coorectly.
+            <summary>
+                This method tests the RemoveLastCharacter method if all the inputs are entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_RemoveLastCharacterUpperCasse()
+        {
+            //Arrange
+            string data = "ABC";
+
+            //Act
+            string res = data.RemoveLastCharacter();
+
+            //Assert
+            Assert.Equal("AB", res);
+        }
+
+
+        /*
+            <summary>
+                This method tests the RemoveLastCharacter method if all the inputs are entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_RemoveLastCharacterSpecialCharacter()
+        {
+            //Arrange
+            string data = "#$%^";
+
+            //Act
+            string res = data.RemoveLastCharacter();
+
+            //Assert
+            Assert.Equal("#$%", res);
+        }
+
+        /*
+            <summary>
+                This method tests the WordCount method if all the inputs are entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_WordCount()
@@ -285,7 +708,9 @@ namespace TestingAssignment2.Test
         }
 
         /*
-            This method tests the WordCount method if all the inputs are not entered coorectly.
+            <summary>
+                This method tests the WordCount method if all the inputs are not entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_WordCountFail()
@@ -300,8 +725,48 @@ namespace TestingAssignment2.Test
             Assert.Equal(2, res);
         }
 
+
         /*
-            This method tests the StringToInteger method if all the inputs are entered coorectly.
+            <summary>
+                This method tests the WordCount method if all the inputs are entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_WordCountUpperCase()
+        {
+            //Arrange
+            string data = "ABC";
+
+            //Act
+            int res = data.WordCount();
+
+            //Assert
+            Assert.Equal(3, res);
+        }
+
+
+        /*
+            <summary>
+                This method tests the WordCount method if all the inputs are entered coorectly.
+            </summary>
+             */
+        [Fact]
+        public void Test_WordCountSpecialCharacter()
+        {
+            //Arrange
+            string data = "$%^&";
+
+            //Act
+            int res = data.WordCount();
+
+            //Assert
+            Assert.Equal(4, res);
+        }
+
+        /*
+            <summary>
+                This method tests the StringToInteger method if all the inputs are entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_StringToInteger()
@@ -317,7 +782,9 @@ namespace TestingAssignment2.Test
         }
 
         /*
-            This method tests the StringToInteger method if all the inputs are not entered coorectly.
+            <summary>
+                This method tests the StringToInteger method if all the inputs are not entered coorectly.
+            </summary>
              */
         [Fact]
         public void Test_StringToIntegerFail()
@@ -330,6 +797,24 @@ namespace TestingAssignment2.Test
 
             //Assert
             Assert.NotEqual(45, res);
+        }
+
+        /*
+           <summary>
+               This method tests the StringToInteger method if all the inputs are entered coorectly.
+           </summary>
+            */
+        [Fact]
+        public void Test_StringToIntegerUpperCase()
+        {
+            //Arrange
+            string data = "ABC";
+
+            //Act
+            int res = data.StringToInteger();
+
+            //Assert
+            Assert.NotEqual(55, res);
         }
     }
 }

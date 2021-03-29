@@ -9,7 +9,9 @@ namespace TestingAssignment2
     {
 
         /*
-            This method accepts string data as input and returns lower case output.
+            <summary>
+                This method accepts string data as input and returns lower case output.
+            </summary>
              */
         public static string ToLowerCase(this string data)
         {
@@ -21,7 +23,9 @@ namespace TestingAssignment2
         }
 
         /*
-            This method accepts string data as input and returns upper case output.
+            <summary>
+                This method accepts string data as input and returns upper case output.
+            </summary>
              */
         public static string ToUpperCase(this string data)
         {
@@ -33,7 +37,9 @@ namespace TestingAssignment2
         }
 
         /*
-            This method accepts string data as input and returns title case output.
+            <summary>
+                This method accepts string data as input and returns title case output.
+            </summary>
              */
         public static string ToTitleCase(this string data)
         {
@@ -47,7 +53,9 @@ namespace TestingAssignment2
         }
 
         /*
-            This method accepts string data as input and returns true if all the letters are in lower case otherwise false.
+            <summary>
+                This method accepts string data as input and returns true if all the letters are in lower case otherwise false.
+            </summary>
              */
         public static bool HasAllLower(this string data)
         {
@@ -79,7 +87,9 @@ namespace TestingAssignment2
 
 
         /*
-            This method accepts string data as input and returns the string with first letter as upper case.
+            <summary>
+                This method accepts string data as input and returns the string with first letter as upper case.
+            </summary>
              */
         public static string FirstLetterToUpper(this string data)
         {
@@ -93,7 +103,9 @@ namespace TestingAssignment2
         }
 
         /*
-            This method accepts string data as input and returns true if all the letters are in upper case otherwise false.
+            <summary>
+                This method accepts string data as input and returns true if all the letters are in upper case otherwise false.
+            </summary>
              */
         public static bool HasAllUpper(this string data)
         {
@@ -125,7 +137,9 @@ namespace TestingAssignment2
 
 
         /*
-            This method accepts string data as input and returns true if it is valid numeric.
+            <summary>
+                This method accepts string data as input and returns true if it is valid numeric.
+            </summary>
              */
         public static bool ValidNumeric(this string data)
         {
@@ -135,7 +149,9 @@ namespace TestingAssignment2
 
 
         /*
-            This method accepts string data as input and returns the string after removing the last character.
+            <summary>
+                This method accepts string data as input and returns the string after removing the last character.
+            </summary>
              */
         public static string RemoveLastCharacter(this string data)
         {
@@ -144,7 +160,9 @@ namespace TestingAssignment2
 
 
         /*
-            This method accepts string data as input and returns total number of words in the string.
+            <summary>
+                This method accepts string data as input and returns total number of words in the string.
+            </summary>
              */
         public static int WordCount(this string data)
         {
@@ -162,7 +180,9 @@ namespace TestingAssignment2
 
 
         /*
-            This method accepts string data as input and returns its converted integer value.
+            <summary>
+                This method accepts string data as input and returns its converted integer value.
+            </summary>
              */
         public static int StringToInteger(this string data)
         {
@@ -171,7 +191,7 @@ namespace TestingAssignment2
                 return int.Parse(data);
             }
             else
-                return null;
+                return 0;
         }
 
     }

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "flB1fLfxBCf5usFKrEo7K154QNdfc1buyEEOdLHEI0/FtwKU41e6XMPJRBMZVuL7Y4Q5zsNVCpDIXWZC7X/MtQ==",
+  "success": false,
+  "projectFilePath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project TestingAssignment2 is not compatible with netcoreapp2.2 (.NETCoreApp,Version=v2.2). Project TestingAssignment2 supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "TestingAssignment2",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
+}

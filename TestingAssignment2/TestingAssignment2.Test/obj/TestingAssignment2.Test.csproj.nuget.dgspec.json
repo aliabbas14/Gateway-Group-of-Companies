@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj": {}
+    "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj": {}
   },
   "projects": {
-    "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj": {
+    "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj",
+        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj",
         "projectName": "TestingAssignment2.Test",
-        "projectPath": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj",
-        "packagesPath": "C:\\Users\\ali.bhojani\\.nuget\\packages\\",
-        "outputPath": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\obj\\",
+        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj",
+        "packagesPath": "C:\\Users\\aliabbas\\.nuget\\packages\\",
+        "outputPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2.Test\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ali.bhojani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aliabbas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,9 +26,10 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj": {
-                "projectPath": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj"
+              "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj": {
+                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj"
               }
             }
           }
@@ -44,48 +42,32 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.0.1, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.0, )"
-            },
-            "xunit.runner.visualstudio": {
-              "target": "Package",
-              "version": "[2.4.0, )"
-            }
-          },
+          "targetAlias": "netcoreapp2.2",
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj": {
+    "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj",
+        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj",
         "projectName": "TestingAssignment2",
-        "projectPath": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj",
-        "packagesPath": "C:\\Users\\ali.bhojani\\.nuget\\packages\\",
-        "outputPath": "D:\\Assignments 1\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\obj\\",
+        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj",
+        "packagesPath": "C:\\Users\\aliabbas\\.nuget\\packages\\",
+        "outputPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ali.bhojani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aliabbas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,6 +79,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -108,11 +91,23 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
