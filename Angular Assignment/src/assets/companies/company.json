@@ -1,0 +1,36 @@
+[
+{
+  "Id":1,
+  "Email":"Gateway@gmail.com",
+  "Name":"Gateway Group of Companies",
+  "TotalEmployee":5266,
+   "Address":"Ahmedabad",
+   "IsCompanyActive":true,
+   "TotalBranch":1,
+   "BranchName":"xyz",
+     "BranchAddress":"Ahmedabad"
+},
+{
+  "Id":2,
+  "Email":"Wipro@gmail.com",
+  "Name":"Wipro",
+  "TotalEmployee":10000,
+   "Address":"Mumbai",
+   "IsCompanyActive":true,
+   "TotalBranch":1,
+   "BranchName":"abc",
+     "BranchAddress":"Mumbai"
+},
+{
+  "Id":3,
+  "Email":"tcs@gmail.com",
+  "Name":"TCS",
+  "TotalEmployee":150000,
+   "Address":"Hyderabad",
+   "IsCompanyActive":true,
+   "TotalBranch":1,
+   "BranchName":"pqr",
+     "BranchAddress":"Hyderabad"
+}
+
+]
