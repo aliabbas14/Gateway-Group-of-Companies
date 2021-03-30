@@ -26,8 +26,15 @@ namespace WebApiFinalAssignment.Controllers
         [Route("api/HotelApi/GetAllHotels")]
         public IHttpActionResult GetAllHotels()
         {
-            var result=_hotel.GetAllHotels();
-            return Ok(result);
+            try
+            {
+                var result = _hotel.GetAllHotels();
+                return Ok(result);
+            }
+            catch(Exception e)
+            {
+                return InternalServerError();
+            }
 
         }
 
@@ -38,8 +45,15 @@ namespace WebApiFinalAssignment.Controllers
         [Route("api/HotelApi/PostAddHotel")]
         public IHttpActionResult PostAddHotel([FromBody]HotelsModel model)
         {
-            _hotel.PostAddHotel(model);
-            return Ok("Hotel Added");
+            try
+            {
+                _hotel.PostAddHotel(model);
+                return Ok("Hotel Added");
+            }
+            catch(Exception e)
+            {
+                return InternalServerError();
+            }
         }
     }
 }

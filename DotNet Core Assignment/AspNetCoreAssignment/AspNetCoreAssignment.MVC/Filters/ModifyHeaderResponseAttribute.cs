@@ -10,7 +10,7 @@ namespace AspNetCoreAssignment.MVC.Filters
     {
         public override void OnActionExecuted(ActionExecutedContext context)
         {
-            context.HttpContext.Response.Headers.Add("X-Name", "Ali");
+            context.HttpContext.Response.Headers.Add("X-Name", "Abc");
         }
     }
 }

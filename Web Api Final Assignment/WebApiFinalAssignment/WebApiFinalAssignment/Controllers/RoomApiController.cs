@@ -43,8 +43,15 @@ namespace WebApiFinalAssignment.Controllers
         [Route("api/RoomApi/GetRoomAvailability/{room_id?}/{date?}")]
         public IHttpActionResult GetRoomAvailability(int room_id, DateTime date)
         {
-            var result=_room.GetRoomAvailability(room_id, date);
-            return Ok(result);
+            try
+            {
+                var result = _room.GetRoomAvailability(room_id, date);
+                return Ok(result);
+            }
+            catch(Exception e)
+            {
+                return InternalServerError();
+            }
         }
 
         /*
@@ -54,8 +61,15 @@ namespace WebApiFinalAssignment.Controllers
         [HttpPost]
         public IHttpActionResult PostBookRoom([FromBody]BookingsModel model)
         {
-            _room.PostBookRoom(model);
-            return Ok("Data Inserted");
+            try
+            {
+                _room.PostBookRoom(model);
+                return Ok("Data Inserted");
+            }
+            catch(Exception e)
+            {
+                return InternalServerError();
+            }
         }
 
         /*
@@ -64,9 +78,12 @@ namespace WebApiFinalAssignment.Controllers
         [Route("api/RoomApi/PostAddRoom")]
         [HttpPost]
         public IHttpActionResult PostAddRoom([FromBody]RoomsModel model)
-        {
-            _room.PostAddRoom(model);
-            return Ok("Room Added");
+        {try
+            {
+                _room.PostAddRoom(model);
+                return Ok("Room Added");
+            }
+            catch (Exception e) { return InternalServerError(); }
         }
 
         /*
@@ -75,9 +92,12 @@ namespace WebApiFinalAssignment.Controllers
         [Route("api/RoomApi/PutUpdateBookingDate")]
         [HttpPut]
         public IHttpActionResult PutUpdateBookingDate([FromUri]int booking_id,[FromBody]BookingsModel model)
-        {
-            _room.PutUpdateBookingDate(booking_id, model);
-            return Ok("Updated");
+        {try
+            {
+                _room.PutUpdateBookingDate(booking_id, model);
+                return Ok("Updated");
+            }
+            catch (Exception e) { return InternalServerError(); }
         }
 
         /*
@@ -86,9 +106,12 @@ namespace WebApiFinalAssignment.Controllers
         [Route("api/RoomApi/PutUpdateBookingStatus")]
         [HttpPut]
         public IHttpActionResult PutUpdateBookingStatus([FromUri]int booking_id, [FromBody]BookingsModel model)
-        {
-            _room.PutUpdateBookingStatus(booking_id, model);
-            return Ok("Booking Status Updated");
+        {try
+            {
+                _room.PutUpdateBookingStatus(booking_id, model);
+                return Ok("Booking Status Updated");
+            }
+            catch (Exception e) { return InternalServerError(); }
         }
 
         /*
@@ -97,9 +120,12 @@ namespace WebApiFinalAssignment.Controllers
         [Route("api/RoomApi/DeleteBooking")]
         [HttpDelete]
         public IHttpActionResult DeleteBooking(int booking_id)
-        {
-            _room.DeleteBooking(booking_id);
-            return Ok("Deleted");
+        {try
+            {
+                _room.DeleteBooking(booking_id);
+                return Ok("Deleted");
+            }
+            catch (Exception e) { return InternalServerError(); }
         }
     }
 }
