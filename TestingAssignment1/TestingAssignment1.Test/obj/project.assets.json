@@ -1337,20 +1337,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aliabbas\\.nuget\\packages\\": {}
+    "C:\\Users\\ali.bhojani\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj",
+      "projectUniqueName": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj",
       "projectName": "TestingAssignment1.Test",
-      "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj",
-      "packagesPath": "C:\\Users\\aliabbas\\.nuget\\packages\\",
-      "outputPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Test\\obj\\",
+      "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment1\\TestingAssignment1.Test\\TestingAssignment1.Test.csproj",
+      "packagesPath": "C:\\Users\\ali.bhojani\\.nuget\\packages\\",
+      "outputPath": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment1\\TestingAssignment1.Test\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\aliabbas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ali.bhojani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1363,14 +1363,14 @@
       "frameworks": {
         "net472": {
           "projectReferences": {
-            "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj": {
-              "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj"
+            "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj": {
+              "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment1\\TestingAssignment1.DAL\\TestingAssignment1.DAL.csproj"
             },
-            "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
-              "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
+            "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj": {
+              "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment1\\TestingAssignment1.Models\\TestingAssignment1.Models.csproj"
             },
-            "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj": {
-              "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj"
+            "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj": {
+              "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment1\\TestingAssignment1\\TestingAssignment1.csproj"
             }
           }
         }

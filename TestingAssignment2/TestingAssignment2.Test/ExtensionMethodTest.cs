@@ -50,6 +50,7 @@ namespace TestingAssignment2.Test
                 This method tests the ToLowerCase method if all the inputs are not entered coorectly.
             </summary>
              */
+        [Fact]
         public void Test_ToLowerCaseLowerCase()
         {
             //Arrange
@@ -67,6 +68,7 @@ namespace TestingAssignment2.Test
                 This method tests the ToLowerCase method if all the inputs are not entered coorectly.
             </summary>
              */
+        [Fact]
         public void Test_ToLowerCaseSpecialCharacter()
         {
             //Arrange
@@ -84,6 +86,7 @@ namespace TestingAssignment2.Test
                 This method tests the ToLowerCase method if all the inputs are not entered coorectly.
             </summary>
              */
+        [Fact]
         public void Test_ToLowerCaseTitleCase()
         {
             //Arrange
@@ -242,7 +245,7 @@ namespace TestingAssignment2.Test
             string res = data.ToTitleCase();
 
             //Assert
-            Assert.Equal("Abc", res);
+            Assert.Equal("ABC", res);
         }
 
         /*
@@ -704,7 +707,7 @@ namespace TestingAssignment2.Test
             int res = data.WordCount();
 
             //Assert
-            Assert.Equal(3, res);
+            Assert.Equal(1, res);
         }
 
         /*
@@ -722,7 +725,7 @@ namespace TestingAssignment2.Test
             int res = data.WordCount();
 
             //Assert
-            Assert.Equal(2, res);
+            Assert.NotEqual(2, res);
         }
 
 
@@ -741,7 +744,7 @@ namespace TestingAssignment2.Test
             int res = data.WordCount();
 
             //Assert
-            Assert.Equal(3, res);
+            Assert.Equal(1, res);
         }
 
 
@@ -760,7 +763,7 @@ namespace TestingAssignment2.Test
             int res = data.WordCount();
 
             //Assert
-            Assert.Equal(4, res);
+            Assert.Equal(1, res);
         }
 
         /*

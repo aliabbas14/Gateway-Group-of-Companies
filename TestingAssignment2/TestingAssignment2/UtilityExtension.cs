@@ -96,7 +96,7 @@ namespace TestingAssignment2
             if (data.Length > 0)
             {
                 char[] char_array = data.ToCharArray();
-                char_array[0] = char.IsUpper(char_array[0]) ? char.ToLower(char_array[0]) : char.ToUpper(char_array[0]);
+                char_array[0] = char.IsUpper(char_array[0]) ? char.ToUpper(char_array[0]) : char.ToUpper(char_array[0]);
                 return new string(char_array);
             }
             return data;

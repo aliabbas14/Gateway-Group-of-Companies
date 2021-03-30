@@ -1,35 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj": {}
+    "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj": {}
   },
   "projects": {
-    "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj": {
+    "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj",
+        "projectUniqueName": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj",
         "projectName": "TestingAssignment2.Test",
-        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj",
-        "packagesPath": "C:\\Users\\aliabbas\\.nuget\\packages\\",
-        "outputPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2.Test\\obj\\",
+        "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\TestingAssignment2.Test.csproj",
+        "packagesPath": "C:\\Users\\ali.bhojani\\.nuget\\packages\\",
+        "outputPath": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2.Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aliabbas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ali.bhojani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
-            "targetAlias": "netcoreapp2.2",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj": {
-                "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj"
+              "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj": {
+                "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj"
               }
             }
           }
@@ -41,8 +44,22 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
-          "targetAlias": "netcoreapp2.2",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,21 +70,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj": {
+    "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj",
+        "projectUniqueName": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj",
         "projectName": "TestingAssignment2",
-        "projectPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj",
-        "packagesPath": "C:\\Users\\aliabbas\\.nuget\\packages\\",
-        "outputPath": "F:\\AliAbbas\\Work\\Gateway\\Assignments\\TestingAssignment2\\TestingAssignment2\\obj\\",
+        "projectPath": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\TestingAssignment2.csproj",
+        "packagesPath": "C:\\Users\\ali.bhojani\\.nuget\\packages\\",
+        "outputPath": "D:\\Assignments\\Gateway-Group-of-Companies\\TestingAssignment2\\TestingAssignment2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aliabbas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ali.bhojani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

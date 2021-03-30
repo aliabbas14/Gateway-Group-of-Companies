@@ -16,3 +16,12 @@ F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment1\TestingAssignment1.DAL\o
 F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.csproj.CopyComplete
 F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.dll
 F:\AliAbbas\Work\Gateway\Assignments\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.pdb
+D:\Assignments\Gateway-Group-of-Companies\TestingAssignment1\TestingAssignment1.DAL\bin\Debug\TestingAssignment1.DAL.dll
+D:\Assignments\Gateway-Group-of-Companies\TestingAssignment1\TestingAssignment1.DAL\bin\Debug\TestingAssignment1.DAL.pdb
+D:\Assignments\Gateway-Group-of-Companies\TestingAssignment1\TestingAssignment1.DAL\bin\Debug\TestingAssignment1.Models.dll
+D:\Assignments\Gateway-Group-of-Companies\TestingAssignment1\TestingAssignment1.DAL\bin\Debug\TestingAssignment1.Models.pdb
+D:\Assignments\Gateway-Group-of-Companies\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.csprojAssemblyReference.cache
+D:\Assignments\Gateway-Group-of-Companies\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.csproj.CoreCompileInputs.cache
+D:\Assignments\Gateway-Group-of-Companies\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.csproj.CopyComplete
+D:\Assignments\Gateway-Group-of-Companies\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.dll
+D:\Assignments\Gateway-Group-of-Companies\TestingAssignment1\TestingAssignment1.DAL\obj\Debug\TestingAssignment1.DAL.pdb
