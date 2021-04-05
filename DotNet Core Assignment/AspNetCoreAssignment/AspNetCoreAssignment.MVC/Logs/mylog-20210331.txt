@@ -1,0 +1,6 @@
+2021-03-31T11:56:10.3575978+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-31T11:56:10.5047686+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-31T11:56:10.5138664+05:30  [INF] Content root path: "D:\Assignments\Gateway-Group-of-Companies\DotNet Core Assignment\AspNetCoreAssignment\AspNetCoreAssignment.MVC" (b5d60022)
+2021-03-31T11:56:11.7458733+05:30 80000019-0001-fb00-b63f-84710c7967bb [INF] Time Taken = 00:00:01.1057203 (3bbbe3ce)
+2021-03-31T11:57:03.4241377+05:30 8000001b-0001-fb00-b63f-84710c7967bb [INF] Time Taken = 00:00:00.0056963 (ecd73de2)
+2021-03-31T11:57:03.5267161+05:30 80000007-0003-fd00-b63f-84710c7967bb [INF] Time Taken = 00:00:00.0812301 (ca8b89ac)
