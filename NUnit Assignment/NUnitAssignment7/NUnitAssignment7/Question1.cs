@@ -6,7 +6,7 @@ namespace NUnitAssignment7
 {
     public class Question1
     {
-        int SumOfnNumbersByWhileLoop(int n)
+        public int SumOfnNumbersByWhileLoop(int n)
         {
             int sum = 0;
             while(n>0)
@@ -18,7 +18,7 @@ namespace NUnitAssignment7
             return sum;
         }
 
-        int CalculatorBySwitchCase(string op,int x,int y)
+        public int CalculatorBySwitchCase(string op,int x,int y)
         {
             int result=0;
             switch(op)
@@ -39,7 +39,7 @@ namespace NUnitAssignment7
             return result;
         }
 
-        string OddEvenByIfElse(int x)
+        public string OddEvenByIfElse(int x)
         {
             if (x % 2 == 0)
                 return "Even";
@@ -47,13 +47,25 @@ namespace NUnitAssignment7
                 return "Odd";
         }
 
-        int SumOfnNumbersByForeachLoop(int n)
+        public int SumOfArrayByForeachLoop(int []n)
         {
             int sum = 0;
             foreach(int i in n)
             {
                 sum += i;
             }
+            return sum;
+        }
+
+        public int SumOfnNumbersByForLoop(int n)
+        {
+            int sum = 0;
+
+            for(int i=1;i<=n;i++)
+            {
+                sum += i;
+            }
+
             return sum;
         }
     }
