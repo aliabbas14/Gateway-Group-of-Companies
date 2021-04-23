@@ -1,0 +1,17 @@
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\bin\Debug\netcoreapp3.1\nunit.engine.dll
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\bin\Debug\netcoreapp3.1\NUnitAssignment8.Test.deps.json
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\bin\Debug\netcoreapp3.1\NUnitAssignment8.Test.dll
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\bin\Debug\netcoreapp3.1\NUnitAssignment8.Test.pdb
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\bin\Debug\netcoreapp3.1\NUnitAssignment8.dll
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\bin\Debug\netcoreapp3.1\NUnitAssignment8.pdb
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\obj\Debug\netcoreapp3.1\NUnitAssignment8.Test.csprojAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\obj\Debug\netcoreapp3.1\NUnitAssignment8.Test.AssemblyInfoInputs.cache
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\obj\Debug\netcoreapp3.1\NUnitAssignment8.Test.AssemblyInfo.cs
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\obj\Debug\netcoreapp3.1\NUnitAssignment8.Test.csproj.CoreCompileInputs.cache
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\obj\Debug\netcoreapp3.1\NUnitAssignment8.Test.csproj.CopyComplete
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\obj\Debug\netcoreapp3.1\NUnitAssignment8.Test.dll
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8.Test\obj\Debug\netcoreapp3.1\NUnitAssignment8.Test.pdb

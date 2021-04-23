@@ -1,0 +1,9 @@
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8\bin\Debug\netcoreapp3.1\NUnitAssignment8.deps.json
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8\bin\Debug\netcoreapp3.1\NUnitAssignment8.dll
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8\bin\Debug\netcoreapp3.1\NUnitAssignment8.pdb
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8\obj\Debug\netcoreapp3.1\NUnitAssignment8.csprojAssemblyReference.cache
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8\obj\Debug\netcoreapp3.1\NUnitAssignment8.AssemblyInfoInputs.cache
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8\obj\Debug\netcoreapp3.1\NUnitAssignment8.AssemblyInfo.cs
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8\obj\Debug\netcoreapp3.1\NUnitAssignment8.csproj.CoreCompileInputs.cache
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8\obj\Debug\netcoreapp3.1\NUnitAssignment8.dll
+F:\AliAbbas\Work\Gateway\Assignments\NUnit Assignment\NUnitAssignment8\NUnitAssignment8\obj\Debug\netcoreapp3.1\NUnitAssignment8.pdb
