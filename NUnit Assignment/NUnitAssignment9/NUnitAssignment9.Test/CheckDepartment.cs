@@ -35,5 +35,6 @@ namespace NUnitAssignment9.Test
         {
             return new CheckDepartment(dept);
         }
+
     }
 }

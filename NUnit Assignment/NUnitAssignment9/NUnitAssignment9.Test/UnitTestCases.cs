@@ -26,7 +26,7 @@ namespace NUnitAssignment9.Test
 
             List<Student> stu = _stu.GetStudentByDepartment(dept);
             //Assert
-            Assert.That(stu, Is.CheckDesignation(dept));
+            Assert.That(stu, Is.Check(dept));
         }
         [Test]
         public void TestStudentsInDepartmentMechanical()
@@ -37,7 +37,7 @@ namespace NUnitAssignment9.Test
 
             List<Student> stu = _stu.GetStudentByDepartment(dept);
             //Assert
-            Assert.That(stu, Is.CheckDesignation(dept));
+            Assert.That(stu, Is.Check(dept));
         }
         [Test]
         public void TestGetStudents()
@@ -83,7 +83,7 @@ namespace NUnitAssignment9.Test
             mock.Setup(x => x.TotalStudent()).Returns(1);
             //Act
             Operations o = new Operations(mock.Object);
-            int actual = o.TotalEmployees();
+            int actual = o.TotalStudents();
             //Assert
             Assert.That(actual, NUnit.Framework.Is.EqualTo(1));
         }
